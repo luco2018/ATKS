@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--This document is created by ValidationSpecManager ver. 3.0.10-->
+<VSM_Model hierarchy_delimiters="\" template_delimiters="&quot;" path_delimiters="/" name="/nfs/iil/proj/dt/advise01/br4/UTDB_punit_pma_pmv_pmsb2/ResetFlowRepository.xml" creation_date="30.08.2017 11:12:01" last_update_date="30.08.2017 11:12:01" owner="br4">
+  <variable name="TrackerSelector" id="Building_Blocks/UTDBSource/common/TrackerSelector" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\TrackerSelector" />
+  <variable name="time" id="Building_Blocks/UTDBSource/common/time" type="int" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\time" />
+  <variable name="travel_time" id="Building_Blocks/UTDBSource/common/travel_time" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\travel_time" />
+  <variable name="src" id="Building_Blocks/UTDBSource/common/src" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\src" />
+  <variable name="dest" id="Building_Blocks/UTDBSource/common/dest" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\dest" />
+  <variable name="opcode" id="Building_Blocks/UTDBSource/common/opcode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\opcode" />
+  <variable name="tag" id="Building_Blocks/UTDBSource/common/tag" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\tag" />
+  <variable name="fid" id="Building_Blocks/UTDBSource/common/fid" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\fid" />
+  <variable name="addr" id="Building_Blocks/UTDBSource/common/addr" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\addr" />
+  <variable name="comments" id="Building_Blocks/UTDBSource/common/comments" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\comments" />
+  <variable name="data" id="Building_Blocks/UTDBSource/common/data" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/common\data" />
+  <variable_folder name="Building_Blocks" type="variable">
+    <variable_folder name="UTDBSource" type="variable" template="Building_Blocks/UTDBSource" instance_of_template_in_folder="Building_Blocks\UTDBSource">
+      <variable_folder name="common" type="variable" template="Building_Blocks/UTDBSource/common" ConditionField="TrackerSelector" ConditionValue="common" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\common">
+        <variable name="TrackerSelector" template="Building_Blocks/UTDBSource/common/TrackerSelector" type="string" />
+        <variable name="time" template="Building_Blocks/UTDBSource/common/time" type="int" />
+        <variable name="travel_time" template="Building_Blocks/UTDBSource/common/travel_time" type="string" />
+        <variable name="src" template="Building_Blocks/UTDBSource/common/src" type="string" />
+        <variable name="dest" template="Building_Blocks/UTDBSource/common/dest" type="string" />
+        <variable name="opcode" template="Building_Blocks/UTDBSource/common/opcode" type="string" />
+        <variable name="tag" template="Building_Blocks/UTDBSource/common/tag" type="string" />
+        <variable name="fid" template="Building_Blocks/UTDBSource/common/fid" type="string" />
+        <variable name="addr" template="Building_Blocks/UTDBSource/common/addr" type="string" />
+        <variable name="comments" template="Building_Blocks/UTDBSource/common/comments" type="string" />
+        <variable name="data" template="Building_Blocks/UTDBSource/common/data" type="string" />
+      </variable_folder>
+    </variable_folder>
+  </variable_folder>
+  <variable name="BBPath" id="BuildingBlockPath/BBPath" type="string" bbPathName="/nfs/iil/proj/dt/advise01/br4/UTDB_punit_pma_pmv_pmsb2/MergedBuildingBlock.xml" instance_of_template_in_folder="BuildingBlockPath\BBPath" />
+  <variable_folder name="BuildingBlockPath" type="variable">
+    <variable name="BBPath" template="BuildingBlockPath/BBPath" type="string" bbPathName="/nfs/iil/proj/dt/advise01/br4/UTDB_punit_pma_pmv_pmsb2/MergedBuildingBlock.xml" />
+  </variable_folder>
+</VSM_Model>

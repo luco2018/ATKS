@@ -1,0 +1,1190 @@
+<?xml version="1.0"?>
+<!--This document is created by ValidationSpecManager ver. 3.0.6-->
+<VSM_Model hierarchy_delimiters="\" template_delimiters="&quot;" path_delimiters="/" name="/nfs/iil/proj/dt/prv01/fpv/work/gtabajah/bigcore/mem_ld_st_pm/UTDB_MetaData" creation_date="28.03.2017 10:59:50" last_update_date="28.03.2017 10:59:50" owner="">
+  <variable name="Type" id="Building_Blocks/UTDBSource/Cancellation/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Cancellation/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Cancellation/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Cancellation/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Cancellation/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Cancellation/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Cancellation/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Cancellation/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Cancellation/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Cancellation/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Cancellation/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Cancellation/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\uop2_name_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Cancellation/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Cancellation/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Cancellation/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Cancellation/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\Event_Name_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/Cancellation/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Cancellation\mrninfo_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Allocation/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Allocation/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Allocation/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Allocation/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Allocation/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Allocation/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Allocation/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Allocation/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Allocation/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Allocation/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Allocation/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Allocation/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\uop2_name_" />
+  <variable name="slot_" id="Building_Blocks/UTDBSource/Allocation/slot_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\slot_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Allocation/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\LDest_" />
+  <variable name="LSeg_" id="Building_Blocks/UTDBSource/Allocation/LSeg_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\LSeg_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Allocation/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Allocation/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Allocation/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Allocation/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\LSrc4_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/Allocation/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/Allocation/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\pDst_" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/Allocation/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\flowmarker_" />
+  <variable name="RS_Eu_En_" id="Building_Blocks/UTDBSource/Allocation/RS_Eu_En_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\RS_Eu_En_" />
+  <variable name="RS_Mem_En_" id="Building_Blocks/UTDBSource/Allocation/RS_Mem_En_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\RS_Mem_En_" />
+  <variable name="FlagMask_" id="Building_Blocks/UTDBSource/Allocation/FlagMask_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\FlagMask_" />
+  <variable name="ZC_S1_" id="Building_Blocks/UTDBSource/Allocation/ZC_S1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\ZC_S1_" />
+  <variable name="ZC_S2_" id="Building_Blocks/UTDBSource/Allocation/ZC_S2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\ZC_S2_" />
+  <variable name="ZC_S3_" id="Building_Blocks/UTDBSource/Allocation/ZC_S3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\ZC_S3_" />
+  <variable name="ZC_S4_" id="Building_Blocks/UTDBSource/Allocation/ZC_S4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\ZC_S4_" />
+  <variable name="BlendCtl_" id="Building_Blocks/UTDBSource/Allocation/BlendCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\BlendCtl_" />
+  <variable name="EuStkCtl_" id="Building_Blocks/UTDBSource/Allocation/EuStkCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\EuStkCtl_" />
+  <variable name="MemStCtl_" id="Building_Blocks/UTDBSource/Allocation/MemStCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\MemStCtl_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Allocation/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Allocation/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Allocation/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Allocation/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\Event_Name_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/Allocation/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Allocation\mrninfo_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Nuke/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Nuke/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Nuke/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Nuke/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Nuke/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Nuke/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Nuke/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Nuke/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Nuke/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Nuke/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Nuke/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Nuke/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\uop2_name_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Nuke/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\LDest_" />
+  <variable name="data_" id="Building_Blocks/UTDBSource/Nuke/data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\data_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Nuke/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Nuke/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Nuke/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Nuke/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\LSrc4_" />
+  <variable name="IPD_" id="Building_Blocks/UTDBSource/Nuke/IPD_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\IPD_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/Nuke/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/Nuke/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\pDst_" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/Nuke/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\flowmarker_" />
+  <variable name="fault_info_" id="Building_Blocks/UTDBSource/Nuke/fault_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\fault_info_" />
+  <variable name="fused_flt_info_" id="Building_Blocks/UTDBSource/Nuke/fused_flt_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\fused_flt_info_" />
+  <variable name="FltFlgEx_" id="Building_Blocks/UTDBSource/Nuke/FltFlgEx_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\FltFlgEx_" />
+  <variable name="FltFlgMem_" id="Building_Blocks/UTDBSource/Nuke/FltFlgMem_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\FltFlgMem_" />
+  <variable name="event_" id="Building_Blocks/UTDBSource/Nuke/event_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\event_" />
+  <variable name="event_no_ret_" id="Building_Blocks/UTDBSource/Nuke/event_no_ret_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\event_no_ret_" />
+  <variable name="event_type_" id="Building_Blocks/UTDBSource/Nuke/event_type_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\event_type_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Nuke/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Nuke/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Nuke/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Nuke/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\Event_Name_" />
+  <variable name="comment_" id="Building_Blocks/UTDBSource/Nuke/comment_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\comment_" />
+  <variable name="step_" id="Building_Blocks/UTDBSource/Nuke/step_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\step_" />
+  <variable name="ThreadID_" id="Building_Blocks/UTDBSource/Nuke/ThreadID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\ThreadID_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/Nuke/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\mrninfo_" />
+  <variable name="step_start" id="Building_Blocks/UTDBSource/Nuke/step_start" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\step_start" />
+  <variable name="step_end" id="Building_Blocks/UTDBSource/Nuke/step_end" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\step_end" />
+  <variable name="exec_mode" id="Building_Blocks/UTDBSource/Nuke/exec_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\exec_mode" />
+  <variable name="vmx_mode" id="Building_Blocks/UTDBSource/Nuke/vmx_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\vmx_mode" />
+  <variable name="smm_mode" id="Building_Blocks/UTDBSource/Nuke/smm_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\smm_mode" />
+  <variable name="sgx_mode" id="Building_Blocks/UTDBSource/Nuke/sgx_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\sgx_mode" />
+  <variable name="is_xucode" id="Building_Blocks/UTDBSource/Nuke/is_xucode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\is_xucode" />
+  <variable name="probe_mode" id="Building_Blocks/UTDBSource/Nuke/probe_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Nuke\probe_mode" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/env/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/env\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/env/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/env\tree_Level" />
+  <variable name="env_name" id="Building_Blocks/UTDBSource/env/env_name" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/env\env_name" />
+  <variable name="env_value" id="Building_Blocks/UTDBSource/env/env_value" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/env\env_value" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/MacroInstr/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/MacroInstr/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/MacroInstr/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/MacroInstr/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/MacroInstr/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/MacroInstr/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/MacroInstr/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/MacroInstr/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/MacroInstr/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/MacroInstr/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/MacroInstr/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/MacroInstr/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\uop2_name_" />
+  <variable name="slot_" id="Building_Blocks/UTDBSource/MacroInstr/slot_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\slot_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/MacroInstr/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\LDest_" />
+  <variable name="retData_" id="Building_Blocks/UTDBSource/MacroInstr/retData_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\retData_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/MacroInstr/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/MacroInstr/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/MacroInstr/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/MacroInstr/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\LSrc4_" />
+  <variable name="IPD_" id="Building_Blocks/UTDBSource/MacroInstr/IPD_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\IPD_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/MacroInstr/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/MacroInstr/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\pDst_" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/MacroInstr/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\flowmarker_" />
+  <variable name="x87FlagMask_" id="Building_Blocks/UTDBSource/MacroInstr/x87FlagMask_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\x87FlagMask_" />
+  <variable name="FlgMsk_" id="Building_Blocks/UTDBSource/MacroInstr/FlgMsk_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\FlgMsk_" />
+  <variable name="fault_info_" id="Building_Blocks/UTDBSource/MacroInstr/fault_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\fault_info_" />
+  <variable name="fused_flt_info_" id="Building_Blocks/UTDBSource/MacroInstr/fused_flt_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\fused_flt_info_" />
+  <variable name="FltFlgEx_" id="Building_Blocks/UTDBSource/MacroInstr/FltFlgEx_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\FltFlgEx_" />
+  <variable name="FltFlgMem_" id="Building_Blocks/UTDBSource/MacroInstr/FltFlgMem_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\FltFlgMem_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/MacroInstr/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/MacroInstr/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/MacroInstr/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/MacroInstr/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\Event_Name_" />
+  <variable name="step_" id="Building_Blocks/UTDBSource/MacroInstr/step_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\step_" />
+  <variable name="ThreadID_" id="Building_Blocks/UTDBSource/MacroInstr/ThreadID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\ThreadID_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/MacroInstr/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\mrninfo_" />
+  <variable name="step_start" id="Building_Blocks/UTDBSource/MacroInstr/step_start" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\step_start" />
+  <variable name="step_end" id="Building_Blocks/UTDBSource/MacroInstr/step_end" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\step_end" />
+  <variable name="is_fused" id="Building_Blocks/UTDBSource/MacroInstr/is_fused" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\is_fused" />
+  <variable name="Mnemonic" id="Building_Blocks/UTDBSource/MacroInstr/Mnemonic" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\Mnemonic" />
+  <variable name="prefix" id="Building_Blocks/UTDBSource/MacroInstr/prefix" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\prefix" />
+  <variable name="exec_mode" id="Building_Blocks/UTDBSource/MacroInstr/exec_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\exec_mode" />
+  <variable name="vmx_mode" id="Building_Blocks/UTDBSource/MacroInstr/vmx_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\vmx_mode" />
+  <variable name="smm_mode" id="Building_Blocks/UTDBSource/MacroInstr/smm_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\smm_mode" />
+  <variable name="sgx_mode" id="Building_Blocks/UTDBSource/MacroInstr/sgx_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\sgx_mode" />
+  <variable name="is_xucode" id="Building_Blocks/UTDBSource/MacroInstr/is_xucode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\is_xucode" />
+  <variable name="probe_mode" id="Building_Blocks/UTDBSource/MacroInstr/probe_mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MacroInstr\probe_mode" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Jclear/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Jclear/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Jclear/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Jclear/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Jclear/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Jclear/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Jclear/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Jclear/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Jclear/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Jclear/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Jclear/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Jclear/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\uop2_name_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Jclear/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\LDest_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Jclear/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Jclear/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Jclear/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Jclear/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\LSrc4_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/Jclear/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/Jclear/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\pDst_" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/Jclear/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\flowmarker_" />
+  <variable name="predTaken_" id="Building_Blocks/UTDBSource/Jclear/predTaken_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\predTaken_" />
+  <variable name="bobID_" id="Building_Blocks/UTDBSource/Jclear/bobID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\bobID_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Jclear/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Jclear/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Jclear/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Jclear/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\Event_Name_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/Jclear/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Jclear\mrninfo_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Creg_Access/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Creg_Access\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Creg_Access/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Creg_Access\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Creg_Access/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Creg_Access\Time_" />
+  <variable name="creg_name" id="Building_Blocks/UTDBSource/Creg_Access/creg_name" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Creg_Access\creg_name" />
+  <variable name="creg_addr" id="Building_Blocks/UTDBSource/Creg_Access/creg_addr" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Creg_Access\creg_addr" />
+  <variable name="creg_value" id="Building_Blocks/UTDBSource/Creg_Access/creg_value" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Creg_Access\creg_value" />
+  <variable name="is_write" id="Building_Blocks/UTDBSource/Creg_Access/is_write" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Creg_Access\is_write" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/UcodeLabel/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/UcodeLabel/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/UcodeLabel/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/UcodeLabel/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/UcodeLabel/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/UcodeLabel/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/UcodeLabel/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/UcodeLabel/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/UcodeLabel/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/UcodeLabel/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/UcodeLabel/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/UcodeLabel/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\uop2_name_" />
+  <variable name="slot_" id="Building_Blocks/UTDBSource/UcodeLabel/slot_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\slot_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/UcodeLabel/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\LDest_" />
+  <variable name="retData_" id="Building_Blocks/UTDBSource/UcodeLabel/retData_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\retData_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/UcodeLabel/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/UcodeLabel/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/UcodeLabel/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/UcodeLabel/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\LSrc4_" />
+  <variable name="IPD_" id="Building_Blocks/UTDBSource/UcodeLabel/IPD_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\IPD_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/UcodeLabel/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/UcodeLabel/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\pDst_" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/UcodeLabel/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\flowmarker_" />
+  <variable name="x87FlagMask_" id="Building_Blocks/UTDBSource/UcodeLabel/x87FlagMask_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\x87FlagMask_" />
+  <variable name="FlgMsk_" id="Building_Blocks/UTDBSource/UcodeLabel/FlgMsk_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\FlgMsk_" />
+  <variable name="fault_info_" id="Building_Blocks/UTDBSource/UcodeLabel/fault_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\fault_info_" />
+  <variable name="fused_flt_info_" id="Building_Blocks/UTDBSource/UcodeLabel/fused_flt_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\fused_flt_info_" />
+  <variable name="FltFlgEx_" id="Building_Blocks/UTDBSource/UcodeLabel/FltFlgEx_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\FltFlgEx_" />
+  <variable name="FltFlgMem_" id="Building_Blocks/UTDBSource/UcodeLabel/FltFlgMem_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\FltFlgMem_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/UcodeLabel/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/UcodeLabel/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/UcodeLabel/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/UcodeLabel/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\Event_Name_" />
+  <variable name="step_" id="Building_Blocks/UTDBSource/UcodeLabel/step_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\step_" />
+  <variable name="ThreadID_" id="Building_Blocks/UTDBSource/UcodeLabel/ThreadID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\ThreadID_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/UcodeLabel/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\mrninfo_" />
+  <variable name="Name" id="Building_Blocks/UTDBSource/UcodeLabel/Name" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/UcodeLabel\Name" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/icon/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/icon/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\tree_Level" />
+  <variable name="struct_name" id="Building_Blocks/UTDBSource/icon/struct_name" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\struct_name" />
+  <variable name="icon_name" id="Building_Blocks/UTDBSource/icon/icon_name" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\icon_name" />
+  <variable name="value_type" id="Building_Blocks/UTDBSource/icon/value_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\value_type" />
+  <variable name="value_int" id="Building_Blocks/UTDBSource/icon/value_int" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\value_int" />
+  <variable name="value_string" id="Building_Blocks/UTDBSource/icon/value_string" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\value_string" />
+  <variable name="value_bool" id="Building_Blocks/UTDBSource/icon/value_bool" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\value_bool" />
+  <variable name="value_enum" id="Building_Blocks/UTDBSource/icon/value_enum" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/icon\value_enum" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/archsim_mismatch/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/archsim_mismatch/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\tree_Level" />
+  <variable name="Step" id="Building_Blocks/UTDBSource/archsim_mismatch/Step" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\Step" />
+  <variable name="MismatchType" id="Building_Blocks/UTDBSource/archsim_mismatch/MismatchType" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\MismatchType" />
+  <variable name="Reg" id="Building_Blocks/UTDBSource/archsim_mismatch/Reg" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\Reg" />
+  <variable name="Addr" id="Building_Blocks/UTDBSource/archsim_mismatch/Addr" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\Addr" />
+  <variable name="RtlData" id="Building_Blocks/UTDBSource/archsim_mismatch/RtlData" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\RtlData" />
+  <variable name="AsmData" id="Building_Blocks/UTDBSource/archsim_mismatch/AsmData" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\AsmData" />
+  <variable name="RtlFuzz" id="Building_Blocks/UTDBSource/archsim_mismatch/RtlFuzz" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\RtlFuzz" />
+  <variable name="AsmFuzz" id="Building_Blocks/UTDBSource/archsim_mismatch/AsmFuzz" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\AsmFuzz" />
+  <variable name="RtlTag" id="Building_Blocks/UTDBSource/archsim_mismatch/RtlTag" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\RtlTag" />
+  <variable name="AsmTag" id="Building_Blocks/UTDBSource/archsim_mismatch/AsmTag" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\AsmTag" />
+  <variable name="asm_type" id="Building_Blocks/UTDBSource/archsim_mismatch/asm_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\asm_type" />
+  <variable name="threadID" id="Building_Blocks/UTDBSource/archsim_mismatch/threadID" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mismatch\threadID" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/treeTitle/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/treeTitle\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/treeTitle/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/treeTitle\tree_Level" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/archsim_comment/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_comment\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/archsim_comment/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_comment\tree_Level" />
+  <variable name="asm_type" id="Building_Blocks/UTDBSource/archsim_comment/asm_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_comment\asm_type" />
+  <variable name="Step" id="Building_Blocks/UTDBSource/archsim_comment/Step" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_comment\Step" />
+  <variable name="threadID" id="Building_Blocks/UTDBSource/archsim_comment/threadID" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_comment\threadID" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/archsim_instr/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/archsim_instr/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\tree_Level" />
+  <variable name="Step" id="Building_Blocks/UTDBSource/archsim_instr/Step" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\Step" />
+  <variable name="Lip" id="Building_Blocks/UTDBSource/archsim_instr/Lip" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\Lip" />
+  <variable name="Encode" id="Building_Blocks/UTDBSource/archsim_instr/Encode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\Encode" />
+  <variable name="Mnemonic" id="Building_Blocks/UTDBSource/archsim_instr/Mnemonic" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\Mnemonic" />
+  <variable name="asm_type" id="Building_Blocks/UTDBSource/archsim_instr/asm_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\asm_type" />
+  <variable name="threadID" id="Building_Blocks/UTDBSource/archsim_instr/threadID" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_instr\threadID" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Retirement/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Retirement/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Retirement/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Retirement/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Retirement/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Retirement/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Retirement/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Retirement/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Retirement/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Retirement/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Retirement/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Retirement/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\uop2_name_" />
+  <variable name="slot_" id="Building_Blocks/UTDBSource/Retirement/slot_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\slot_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Retirement/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\LDest_" />
+  <variable name="retData_" id="Building_Blocks/UTDBSource/Retirement/retData_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\retData_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Retirement/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Retirement/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Retirement/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Retirement/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\LSrc4_" />
+  <variable name="IPD_" id="Building_Blocks/UTDBSource/Retirement/IPD_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\IPD_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/Retirement/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/Retirement/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\pDst_" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/Retirement/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\flowmarker_" />
+  <variable name="x87FlagMask_" id="Building_Blocks/UTDBSource/Retirement/x87FlagMask_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\x87FlagMask_" />
+  <variable name="FlgMsk_" id="Building_Blocks/UTDBSource/Retirement/FlgMsk_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\FlgMsk_" />
+  <variable name="fault_info_" id="Building_Blocks/UTDBSource/Retirement/fault_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\fault_info_" />
+  <variable name="fused_flt_info_" id="Building_Blocks/UTDBSource/Retirement/fused_flt_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\fused_flt_info_" />
+  <variable name="FltFlgEx_" id="Building_Blocks/UTDBSource/Retirement/FltFlgEx_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\FltFlgEx_" />
+  <variable name="FltFlgMem_" id="Building_Blocks/UTDBSource/Retirement/FltFlgMem_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\FltFlgMem_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Retirement/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Retirement/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Retirement/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Retirement/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\Event_Name_" />
+  <variable name="step_" id="Building_Blocks/UTDBSource/Retirement/step_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\step_" />
+  <variable name="ThreadID_" id="Building_Blocks/UTDBSource/Retirement/ThreadID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\ThreadID_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/Retirement/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Retirement\mrninfo_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Writeback/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Writeback/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Writeback/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Writeback/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Writeback/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Writeback/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Writeback/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Writeback/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Writeback/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Writeback/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Writeback/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Writeback/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\uop2_name_" />
+  <variable name="wPort_" id="Building_Blocks/UTDBSource/Writeback/wPort_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\wPort_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Writeback/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\LDest_" />
+  <variable name="wbData_" id="Building_Blocks/UTDBSource/Writeback/wbData_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\wbData_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Writeback/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Writeback/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Writeback/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Writeback/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\LSrc4_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/Writeback/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/Writeback/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\pDst_" />
+  <variable name="BlendCtl_" id="Building_Blocks/UTDBSource/Writeback/BlendCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\BlendCtl_" />
+  <variable name="EuStkCtl_" id="Building_Blocks/UTDBSource/Writeback/EuStkCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\EuStkCtl_" />
+  <variable name="MemStCtl_" id="Building_Blocks/UTDBSource/Writeback/MemStCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\MemStCtl_" />
+  <variable name="wb_fault_info_" id="Building_Blocks/UTDBSource/Writeback/wb_fault_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\wb_fault_info_" />
+  <variable name="wb_flags_" id="Building_Blocks/UTDBSource/Writeback/wb_flags_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\wb_flags_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Writeback/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Writeback/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Writeback/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Writeback/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Writeback\Event_Name_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/archsim_decode/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_decode\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/archsim_decode/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_decode\tree_Level" />
+  <variable name="Step" id="Building_Blocks/UTDBSource/archsim_decode/Step" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_decode\Step" />
+  <variable name="Mode" id="Building_Blocks/UTDBSource/archsim_decode/Mode" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_decode\Mode" />
+  <variable name="asm_type" id="Building_Blocks/UTDBSource/archsim_decode/asm_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_decode\asm_type" />
+  <variable name="threadID" id="Building_Blocks/UTDBSource/archsim_decode/threadID" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_decode\threadID" />
+  <variable name="FullLine" id="Building_Blocks/UTDBSource/archsim_decode/FullLine" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_decode\FullLine" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/creg_inj/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/creg_inj/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/creg_inj/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\Time_" />
+  <variable name="creg_name" id="Building_Blocks/UTDBSource/creg_inj/creg_name" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\creg_name" />
+  <variable name="is_field_write" id="Building_Blocks/UTDBSource/creg_inj/is_field_write" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\is_field_write" />
+  <variable name="creg_write_type" id="Building_Blocks/UTDBSource/creg_inj/creg_write_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\creg_write_type" />
+  <variable name="creg_value" id="Building_Blocks/UTDBSource/creg_inj/creg_value" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\creg_value" />
+  <variable name="creg_field_name" id="Building_Blocks/UTDBSource/creg_inj/creg_field_name" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\creg_field_name" />
+  <variable name="creg_write_thread" id="Building_Blocks/UTDBSource/creg_inj/creg_write_thread" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/creg_inj\creg_write_thread" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/obj/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/obj\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/obj/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/obj\tree_Level" />
+  <variable name="address" id="Building_Blocks/UTDBSource/obj/address" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/obj\address" />
+  <variable name="value" id="Building_Blocks/UTDBSource/obj/value" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/obj\value" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Dispatch/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Dispatch/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Dispatch/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Dispatch/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Dispatch/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Dispatch/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Dispatch/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Dispatch/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Dispatch/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Dispatch/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Dispatch/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Dispatch/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\uop2_name_" />
+  <variable name="dPort_" id="Building_Blocks/UTDBSource/Dispatch/dPort_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\dPort_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Dispatch/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\LDest_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Dispatch/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Dispatch/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Dispatch/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Dispatch/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\LSrc4_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/Dispatch/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/Dispatch/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\pDst_" />
+  <variable name="IMM_QA_" id="Building_Blocks/UTDBSource/Dispatch/IMM_QA_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\IMM_QA_" />
+  <variable name="IMM_QB_" id="Building_Blocks/UTDBSource/Dispatch/IMM_QB_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\IMM_QB_" />
+  <variable name="IMM_QC_" id="Building_Blocks/UTDBSource/Dispatch/IMM_QC_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\IMM_QC_" />
+  <variable name="ZC_S1_" id="Building_Blocks/UTDBSource/Dispatch/ZC_S1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\ZC_S1_" />
+  <variable name="ZC_S2_" id="Building_Blocks/UTDBSource/Dispatch/ZC_S2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\ZC_S2_" />
+  <variable name="ZC_S3_" id="Building_Blocks/UTDBSource/Dispatch/ZC_S3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\ZC_S3_" />
+  <variable name="ZC_S4_" id="Building_Blocks/UTDBSource/Dispatch/ZC_S4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\ZC_S4_" />
+  <variable name="BlendCtl_" id="Building_Blocks/UTDBSource/Dispatch/BlendCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\BlendCtl_" />
+  <variable name="EuStkCtl_" id="Building_Blocks/UTDBSource/Dispatch/EuStkCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\EuStkCtl_" />
+  <variable name="MemStCtl_" id="Building_Blocks/UTDBSource/Dispatch/MemStCtl_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\MemStCtl_" />
+  <variable name="Lat_" id="Building_Blocks/UTDBSource/Dispatch/Lat_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\Lat_" />
+  <variable name="IMM_CTRL_" id="Building_Blocks/UTDBSource/Dispatch/IMM_CTRL_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\IMM_CTRL_" />
+  <variable name="IMM_QU_" id="Building_Blocks/UTDBSource/Dispatch/IMM_QU_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\IMM_QU_" />
+  <variable name="RS_En_" id="Building_Blocks/UTDBSource/Dispatch/RS_En_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\RS_En_" />
+  <variable name="SRC1_data_" id="Building_Blocks/UTDBSource/Dispatch/SRC1_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\SRC1_data_" />
+  <variable name="S1_BP_Port_" id="Building_Blocks/UTDBSource/Dispatch/S1_BP_Port_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S1_BP_Port_" />
+  <variable name="S1_BP_data_" id="Building_Blocks/UTDBSource/Dispatch/S1_BP_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S1_BP_data_" />
+  <variable name="SRC2_data_" id="Building_Blocks/UTDBSource/Dispatch/SRC2_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\SRC2_data_" />
+  <variable name="S2_BP_Port_" id="Building_Blocks/UTDBSource/Dispatch/S2_BP_Port_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S2_BP_Port_" />
+  <variable name="S2_BP_data_" id="Building_Blocks/UTDBSource/Dispatch/S2_BP_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S2_BP_data_" />
+  <variable name="SRC3_data_" id="Building_Blocks/UTDBSource/Dispatch/SRC3_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\SRC3_data_" />
+  <variable name="S3_BP_Port_" id="Building_Blocks/UTDBSource/Dispatch/S3_BP_Port_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S3_BP_Port_" />
+  <variable name="S3_BP_data_" id="Building_Blocks/UTDBSource/Dispatch/S3_BP_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S3_BP_data_" />
+  <variable name="SRC4_data_" id="Building_Blocks/UTDBSource/Dispatch/SRC4_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\SRC4_data_" />
+  <variable name="S4_BP_Port_" id="Building_Blocks/UTDBSource/Dispatch/S4_BP_Port_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S4_BP_Port_" />
+  <variable name="S4_BP_data_" id="Building_Blocks/UTDBSource/Dispatch/S4_BP_data_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\S4_BP_data_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Dispatch/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Dispatch/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Dispatch/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Dispatch/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Dispatch\Event_Name_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/rtlsi_step/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/rtlsi_step\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/rtlsi_step/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/rtlsi_step\tree_Level" />
+  <variable name="rtlsi_uid" id="Building_Blocks/UTDBSource/rtlsi_step/rtlsi_uid" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/rtlsi_step\rtlsi_uid" />
+  <variable name="threadID" id="Building_Blocks/UTDBSource/rtlsi_step/threadID" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/rtlsi_step\threadID" />
+  <variable name="asm_type" id="Building_Blocks/UTDBSource/rtlsi_step/asm_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/rtlsi_step\asm_type" />
+  <variable name="Step" id="Building_Blocks/UTDBSource/rtlsi_step/Step" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/rtlsi_step\Step" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/MEU_Common/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/MEU_Common/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/MEU_Common/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Time_" />
+  <variable name="Thrd_" id="Building_Blocks/UTDBSource/MEU_Common/Thrd_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Thrd_" />
+  <variable name="Port_" id="Building_Blocks/UTDBSource/MEU_Common/Port_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Port_" />
+  <variable name="Rob_ID_" id="Building_Blocks/UTDBSource/MEU_Common/Rob_ID_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Rob_ID_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/MEU_Common/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\URI_LID_" />
+  <variable name="Event_Description_" id="Building_Blocks/UTDBSource/MEU_Common/Event_Description_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Event_Description_" />
+  <variable name="Pipe_Stage_" id="Building_Blocks/UTDBSource/MEU_Common/Pipe_Stage_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Pipe_Stage_" />
+  <variable name="Mem_Type_" id="Building_Blocks/UTDBSource/MEU_Common/Mem_Type_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Mem_Type_" />
+  <variable name="LBID_" id="Building_Blocks/UTDBSource/MEU_Common/LBID_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\LBID_" />
+  <variable name="SBID_" id="Building_Blocks/UTDBSource/MEU_Common/SBID_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\SBID_" />
+  <variable name="Linaddr_" id="Building_Blocks/UTDBSource/MEU_Common/Linaddr_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Linaddr_" />
+  <variable name="Phyaddr_" id="Building_Blocks/UTDBSource/MEU_Common/Phyaddr_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Phyaddr_" />
+  <variable name="Uopcode_" id="Building_Blocks/UTDBSource/MEU_Common/Uopcode_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Uopcode_" />
+  <variable name="Stat_" id="Building_Blocks/UTDBSource/MEU_Common/Stat_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Stat_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/MEU_Common/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/MEU_Common/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\URI_TID_" />
+  <variable name="Comments_" id="Building_Blocks/UTDBSource/MEU_Common/Comments_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Comments_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/MEU_Common/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/MEU_Common\Event_Name_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Mem_Access/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Mem_Access/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Mem_Access/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\Time_" />
+  <variable name="linear_address" id="Building_Blocks/UTDBSource/Mem_Access/linear_address" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\linear_address" />
+  <variable name="physical_address" id="Building_Blocks/UTDBSource/Mem_Access/physical_address" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\physical_address" />
+  <variable name="memory_type" id="Building_Blocks/UTDBSource/Mem_Access/memory_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\memory_type" />
+  <variable name="is_store" id="Building_Blocks/UTDBSource/Mem_Access/is_store" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\is_store" />
+  <variable name="ma_data" id="Building_Blocks/UTDBSource/Mem_Access/ma_data" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Mem_Access\ma_data" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Uop/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Uop/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Uop/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Uop/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Uop/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Uop/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Uop/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Uop/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Uop/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Uop/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Uop/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Uop/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\uop2_name_" />
+  <variable name="slot_" id="Building_Blocks/UTDBSource/Uop/slot_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\slot_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Uop/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\LDest_" />
+  <variable name="retData_" id="Building_Blocks/UTDBSource/Uop/retData_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\retData_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Uop/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Uop/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Uop/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Uop/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\LSrc4_" />
+  <variable name="IPD_" id="Building_Blocks/UTDBSource/Uop/IPD_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\IPD_" />
+  <variable name="roID_" id="Building_Blocks/UTDBSource/Uop/roID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\roID_" />
+  <variable name="pDst_" id="Building_Blocks/UTDBSource/Uop/pDst_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\pDst_" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/Uop/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\flowmarker_" />
+  <variable name="x87FlagMask_" id="Building_Blocks/UTDBSource/Uop/x87FlagMask_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\x87FlagMask_" />
+  <variable name="FlgMsk_" id="Building_Blocks/UTDBSource/Uop/FlgMsk_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\FlgMsk_" />
+  <variable name="fault_info_" id="Building_Blocks/UTDBSource/Uop/fault_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\fault_info_" />
+  <variable name="fused_flt_info_" id="Building_Blocks/UTDBSource/Uop/fused_flt_info_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\fused_flt_info_" />
+  <variable name="FltFlgEx_" id="Building_Blocks/UTDBSource/Uop/FltFlgEx_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\FltFlgEx_" />
+  <variable name="FltFlgMem_" id="Building_Blocks/UTDBSource/Uop/FltFlgMem_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\FltFlgMem_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Uop/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Uop/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Uop/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Uop/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\Event_Name_" />
+  <variable name="step_" id="Building_Blocks/UTDBSource/Uop/step_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\step_" />
+  <variable name="ThreadID_" id="Building_Blocks/UTDBSource/Uop/ThreadID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\ThreadID_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/Uop/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Uop\mrninfo_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/archsim_reg_change/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_reg_change\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/archsim_reg_change/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_reg_change\tree_Level" />
+  <variable name="register" id="Building_Blocks/UTDBSource/archsim_reg_change/register" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_reg_change\register" />
+  <variable name="value" id="Building_Blocks/UTDBSource/archsim_reg_change/value" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_reg_change\value" />
+  <variable name="asm_type" id="Building_Blocks/UTDBSource/archsim_reg_change/asm_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_reg_change\asm_type" />
+  <variable name="Step" id="Building_Blocks/UTDBSource/archsim_reg_change/Step" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_reg_change\Step" />
+  <variable name="threadID" id="Building_Blocks/UTDBSource/archsim_reg_change/threadID" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_reg_change\threadID" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/Issue/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/Issue/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\tree_Level" />
+  <variable name="Time_" id="Building_Blocks/UTDBSource/Issue/Time_" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\Time_" />
+  <variable name="St_" id="Building_Blocks/UTDBSource/Issue/St_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\St_" />
+  <variable name="uid_" id="Building_Blocks/UTDBSource/Issue/uid_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\uid_" />
+  <variable name="uIP_" id="Building_Blocks/UTDBSource/Issue/uIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\uIP_" />
+  <variable name="LIP_" id="Building_Blocks/UTDBSource/Issue/LIP_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\LIP_" />
+  <variable name="F_" id="Building_Blocks/UTDBSource/Issue/F_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\F_" />
+  <variable name="opCod_" id="Building_Blocks/UTDBSource/Issue/opCod_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\opCod_" />
+  <variable name="uop_name_" id="Building_Blocks/UTDBSource/Issue/uop_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\uop_name_" />
+  <variable name="opCod2_" id="Building_Blocks/UTDBSource/Issue/opCod2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\opCod2_" />
+  <variable name="uop2_name_" id="Building_Blocks/UTDBSource/Issue/uop2_name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\uop2_name_" />
+  <variable name="slot_" id="Building_Blocks/UTDBSource/Issue/slot_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\slot_" />
+  <variable name="LDest_" id="Building_Blocks/UTDBSource/Issue/LDest_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\LDest_" />
+  <variable name="LSeg_" id="Building_Blocks/UTDBSource/Issue/LSeg_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\LSeg_" />
+  <variable name="IsDSB_" id="Building_Blocks/UTDBSource/Issue/IsDSB_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\IsDSB_" />
+  <variable name="LSrc1_" id="Building_Blocks/UTDBSource/Issue/LSrc1_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\LSrc1_" />
+  <variable name="LSrc2_" id="Building_Blocks/UTDBSource/Issue/LSrc2_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\LSrc2_" />
+  <variable name="LSrc3_" id="Building_Blocks/UTDBSource/Issue/LSrc3_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\LSrc3_" />
+  <variable name="LSrc4_" id="Building_Blocks/UTDBSource/Issue/LSrc4_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\LSrc4_" />
+  <variable name="IPD_" id="Building_Blocks/UTDBSource/Issue/IPD_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\IPD_" />
+  <variable name="TOS_AvxSSEstate__" id="Building_Blocks/UTDBSource/Issue/TOS_AvxSSEstate__" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\TOS_AvxSSEstate__" />
+  <variable name="TOS_BCST__" id="Building_Blocks/UTDBSource/Issue/TOS_BCST__" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\TOS_BCST__" />
+  <variable name="TOS_Mask__" id="Building_Blocks/UTDBSource/Issue/TOS_Mask__" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\TOS_Mask__" />
+  <variable name="TOS_TOSAdjst__" id="Building_Blocks/UTDBSource/Issue/TOS_TOSAdjst__" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\TOS_TOSAdjst__" />
+  <variable name="flowmarker_" id="Building_Blocks/UTDBSource/Issue/flowmarker_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\flowmarker_" />
+  <variable name="id_is_mfipd_" id="Building_Blocks/UTDBSource/Issue/id_is_mfipd_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\id_is_mfipd_" />
+  <variable name="MEcand_" id="Building_Blocks/UTDBSource/Issue/MEcand_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\MEcand_" />
+  <variable name="IMM_QA_" id="Building_Blocks/UTDBSource/Issue/IMM_QA_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\IMM_QA_" />
+  <variable name="IMM_QB_" id="Building_Blocks/UTDBSource/Issue/IMM_QB_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\IMM_QB_" />
+  <variable name="IMM_QC_" id="Building_Blocks/UTDBSource/Issue/IMM_QC_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\IMM_QC_" />
+  <variable name="URI_LID_" id="Building_Blocks/UTDBSource/Issue/URI_LID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\URI_LID_" />
+  <variable name="URI_PID_" id="Building_Blocks/UTDBSource/Issue/URI_PID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\URI_PID_" />
+  <variable name="URI_TID_" id="Building_Blocks/UTDBSource/Issue/URI_TID_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\URI_TID_" />
+  <variable name="Event_Name_" id="Building_Blocks/UTDBSource/Issue/Event_Name_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\Event_Name_" />
+  <variable name="mrninfo_" id="Building_Blocks/UTDBSource/Issue/mrninfo_" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/Issue\mrninfo_" />
+  <variable name="Type" id="Building_Blocks/UTDBSource/archsim_mem_change/Type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\Type" />
+  <variable name="tree_Level" id="Building_Blocks/UTDBSource/archsim_mem_change/tree_Level" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\tree_Level" />
+  <variable name="transid" id="Building_Blocks/UTDBSource/archsim_mem_change/transid" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\transid" />
+  <variable name="is_trans" id="Building_Blocks/UTDBSource/archsim_mem_change/is_trans" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\is_trans" />
+  <variable name="is_physical_access" id="Building_Blocks/UTDBSource/archsim_mem_change/is_physical_access" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\is_physical_access" />
+  <variable name="trans_OperationType" id="Building_Blocks/UTDBSource/archsim_mem_change/trans_OperationType" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\trans_OperationType" />
+  <variable name="Virtual_Selector" id="Building_Blocks/UTDBSource/archsim_mem_change/Virtual_Selector" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\Virtual_Selector" />
+  <variable name="Virtual_Offset" id="Building_Blocks/UTDBSource/archsim_mem_change/Virtual_Offset" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\Virtual_Offset" />
+  <variable name="LinearAddress" id="Building_Blocks/UTDBSource/archsim_mem_change/LinearAddress" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\LinearAddress" />
+  <variable name="PhysicalAccessType" id="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalAccessType" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\PhysicalAccessType" />
+  <variable name="Physical_OperationType" id="Building_Blocks/UTDBSource/archsim_mem_change/Physical_OperationType" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\Physical_OperationType" />
+  <variable name="PhysicalAddress" id="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalAddress" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\PhysicalAddress" />
+  <variable name="PhysicalMemType" id="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalMemType" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\PhysicalMemType" />
+  <variable name="PhysicalSize" id="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalSize" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\PhysicalSize" />
+  <variable name="PhysicalValue" id="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalValue" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\PhysicalValue" />
+  <variable name="Tag" id="Building_Blocks/UTDBSource/archsim_mem_change/Tag" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\Tag" />
+  <variable name="asm_type" id="Building_Blocks/UTDBSource/archsim_mem_change/asm_type" type="string" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\asm_type" />
+  <variable name="Step" id="Building_Blocks/UTDBSource/archsim_mem_change/Step" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\Step" />
+  <variable name="threadID" id="Building_Blocks/UTDBSource/archsim_mem_change/threadID" type="integer" instance_of_template_in_folder="Building_Blocks/UTDBSource/archsim_mem_change\threadID" />
+  <variable_folder name="Building_Blocks" type="variable">
+    <variable_folder name="UTDBSource" type="variable" template="Building_Blocks/UTDBSource" instance_of_template_in_folder="Building_Blocks\UTDBSource">
+      <variable_folder name="Cancellation" type="variable" template="Building_Blocks/UTDBSource/Cancellation" ConditionField="LogDBHeadersName" ConditionValue="Cancellation" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Cancellation">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Cancellation/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Cancellation/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Cancellation/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Cancellation/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Cancellation/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Cancellation/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Cancellation/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Cancellation/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Cancellation/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Cancellation/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Cancellation/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Cancellation/uop2_name_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Cancellation/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Cancellation/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Cancellation/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Cancellation/Event_Name_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/Cancellation/mrninfo_" type="string" />
+      </variable_folder>
+      <variable_folder name="Allocation" type="variable" template="Building_Blocks/UTDBSource/Allocation" ConditionField="LogDBHeadersName" ConditionValue="Allocation" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Allocation">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Allocation/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Allocation/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Allocation/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Allocation/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Allocation/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Allocation/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Allocation/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Allocation/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Allocation/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Allocation/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Allocation/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Allocation/uop2_name_" type="string" />
+        <variable name="slot_" template="Building_Blocks/UTDBSource/Allocation/slot_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Allocation/LDest_" type="string" />
+        <variable name="LSeg_" template="Building_Blocks/UTDBSource/Allocation/LSeg_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Allocation/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Allocation/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Allocation/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Allocation/LSrc4_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/Allocation/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/Allocation/pDst_" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/Allocation/flowmarker_" type="string" />
+        <variable name="RS_Eu_En_" template="Building_Blocks/UTDBSource/Allocation/RS_Eu_En_" type="string" />
+        <variable name="RS_Mem_En_" template="Building_Blocks/UTDBSource/Allocation/RS_Mem_En_" type="string" />
+        <variable name="FlagMask_" template="Building_Blocks/UTDBSource/Allocation/FlagMask_" type="string" />
+        <variable name="ZC_S1_" template="Building_Blocks/UTDBSource/Allocation/ZC_S1_" type="string" />
+        <variable name="ZC_S2_" template="Building_Blocks/UTDBSource/Allocation/ZC_S2_" type="string" />
+        <variable name="ZC_S3_" template="Building_Blocks/UTDBSource/Allocation/ZC_S3_" type="string" />
+        <variable name="ZC_S4_" template="Building_Blocks/UTDBSource/Allocation/ZC_S4_" type="string" />
+        <variable name="BlendCtl_" template="Building_Blocks/UTDBSource/Allocation/BlendCtl_" type="string" />
+        <variable name="EuStkCtl_" template="Building_Blocks/UTDBSource/Allocation/EuStkCtl_" type="string" />
+        <variable name="MemStCtl_" template="Building_Blocks/UTDBSource/Allocation/MemStCtl_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Allocation/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Allocation/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Allocation/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Allocation/Event_Name_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/Allocation/mrninfo_" type="string" />
+      </variable_folder>
+      <variable_folder name="Nuke" type="variable" template="Building_Blocks/UTDBSource/Nuke" ConditionField="LogDBHeadersName" ConditionValue="Nuke" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Nuke">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Nuke/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Nuke/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Nuke/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Nuke/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Nuke/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Nuke/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Nuke/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Nuke/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Nuke/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Nuke/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Nuke/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Nuke/uop2_name_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Nuke/LDest_" type="string" />
+        <variable name="data_" template="Building_Blocks/UTDBSource/Nuke/data_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Nuke/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Nuke/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Nuke/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Nuke/LSrc4_" type="string" />
+        <variable name="IPD_" template="Building_Blocks/UTDBSource/Nuke/IPD_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/Nuke/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/Nuke/pDst_" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/Nuke/flowmarker_" type="string" />
+        <variable name="fault_info_" template="Building_Blocks/UTDBSource/Nuke/fault_info_" type="string" />
+        <variable name="fused_flt_info_" template="Building_Blocks/UTDBSource/Nuke/fused_flt_info_" type="string" />
+        <variable name="FltFlgEx_" template="Building_Blocks/UTDBSource/Nuke/FltFlgEx_" type="string" />
+        <variable name="FltFlgMem_" template="Building_Blocks/UTDBSource/Nuke/FltFlgMem_" type="string" />
+        <variable name="event_" template="Building_Blocks/UTDBSource/Nuke/event_" type="string" />
+        <variable name="event_no_ret_" template="Building_Blocks/UTDBSource/Nuke/event_no_ret_" type="string" />
+        <variable name="event_type_" template="Building_Blocks/UTDBSource/Nuke/event_type_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Nuke/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Nuke/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Nuke/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Nuke/Event_Name_" type="string" />
+        <variable name="comment_" template="Building_Blocks/UTDBSource/Nuke/comment_" type="string" />
+        <variable name="step_" template="Building_Blocks/UTDBSource/Nuke/step_" type="string" />
+        <variable name="ThreadID_" template="Building_Blocks/UTDBSource/Nuke/ThreadID_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/Nuke/mrninfo_" type="string" />
+        <variable name="step_start" template="Building_Blocks/UTDBSource/Nuke/step_start" type="integer" />
+        <variable name="step_end" template="Building_Blocks/UTDBSource/Nuke/step_end" type="integer" />
+        <variable name="exec_mode" template="Building_Blocks/UTDBSource/Nuke/exec_mode" type="string" />
+        <variable name="vmx_mode" template="Building_Blocks/UTDBSource/Nuke/vmx_mode" type="string" />
+        <variable name="smm_mode" template="Building_Blocks/UTDBSource/Nuke/smm_mode" type="string" />
+        <variable name="sgx_mode" template="Building_Blocks/UTDBSource/Nuke/sgx_mode" type="string" />
+        <variable name="is_xucode" template="Building_Blocks/UTDBSource/Nuke/is_xucode" type="string" />
+        <variable name="probe_mode" template="Building_Blocks/UTDBSource/Nuke/probe_mode" type="string" />
+      </variable_folder>
+      <variable_folder name="env" type="variable" template="Building_Blocks/UTDBSource/env" ConditionField="LogDBHeadersName" ConditionValue="env" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\env">
+        <variable name="Type" template="Building_Blocks/UTDBSource/env/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/env/tree_Level" type="integer" />
+        <variable name="env_name" template="Building_Blocks/UTDBSource/env/env_name" type="string" />
+        <variable name="env_value" template="Building_Blocks/UTDBSource/env/env_value" type="string" />
+      </variable_folder>
+      <variable_folder name="MacroInstr" type="variable" template="Building_Blocks/UTDBSource/MacroInstr" ConditionField="LogDBHeadersName" ConditionValue="MacroInstr" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\MacroInstr">
+        <variable name="Type" template="Building_Blocks/UTDBSource/MacroInstr/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/MacroInstr/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/MacroInstr/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/MacroInstr/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/MacroInstr/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/MacroInstr/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/MacroInstr/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/MacroInstr/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/MacroInstr/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/MacroInstr/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/MacroInstr/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/MacroInstr/uop2_name_" type="string" />
+        <variable name="slot_" template="Building_Blocks/UTDBSource/MacroInstr/slot_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/MacroInstr/LDest_" type="string" />
+        <variable name="retData_" template="Building_Blocks/UTDBSource/MacroInstr/retData_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/MacroInstr/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/MacroInstr/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/MacroInstr/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/MacroInstr/LSrc4_" type="string" />
+        <variable name="IPD_" template="Building_Blocks/UTDBSource/MacroInstr/IPD_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/MacroInstr/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/MacroInstr/pDst_" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/MacroInstr/flowmarker_" type="string" />
+        <variable name="x87FlagMask_" template="Building_Blocks/UTDBSource/MacroInstr/x87FlagMask_" type="string" />
+        <variable name="FlgMsk_" template="Building_Blocks/UTDBSource/MacroInstr/FlgMsk_" type="string" />
+        <variable name="fault_info_" template="Building_Blocks/UTDBSource/MacroInstr/fault_info_" type="string" />
+        <variable name="fused_flt_info_" template="Building_Blocks/UTDBSource/MacroInstr/fused_flt_info_" type="string" />
+        <variable name="FltFlgEx_" template="Building_Blocks/UTDBSource/MacroInstr/FltFlgEx_" type="string" />
+        <variable name="FltFlgMem_" template="Building_Blocks/UTDBSource/MacroInstr/FltFlgMem_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/MacroInstr/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/MacroInstr/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/MacroInstr/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/MacroInstr/Event_Name_" type="string" />
+        <variable name="step_" template="Building_Blocks/UTDBSource/MacroInstr/step_" type="string" />
+        <variable name="ThreadID_" template="Building_Blocks/UTDBSource/MacroInstr/ThreadID_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/MacroInstr/mrninfo_" type="string" />
+        <variable name="step_start" template="Building_Blocks/UTDBSource/MacroInstr/step_start" type="integer" />
+        <variable name="step_end" template="Building_Blocks/UTDBSource/MacroInstr/step_end" type="integer" />
+        <variable name="is_fused" template="Building_Blocks/UTDBSource/MacroInstr/is_fused" type="integer" />
+        <variable name="Mnemonic" template="Building_Blocks/UTDBSource/MacroInstr/Mnemonic" type="string" />
+        <variable name="prefix" template="Building_Blocks/UTDBSource/MacroInstr/prefix" type="string" />
+        <variable name="exec_mode" template="Building_Blocks/UTDBSource/MacroInstr/exec_mode" type="string" />
+        <variable name="vmx_mode" template="Building_Blocks/UTDBSource/MacroInstr/vmx_mode" type="string" />
+        <variable name="smm_mode" template="Building_Blocks/UTDBSource/MacroInstr/smm_mode" type="string" />
+        <variable name="sgx_mode" template="Building_Blocks/UTDBSource/MacroInstr/sgx_mode" type="string" />
+        <variable name="is_xucode" template="Building_Blocks/UTDBSource/MacroInstr/is_xucode" type="string" />
+        <variable name="probe_mode" template="Building_Blocks/UTDBSource/MacroInstr/probe_mode" type="string" />
+      </variable_folder>
+      <variable_folder name="Jclear" type="variable" template="Building_Blocks/UTDBSource/Jclear" ConditionField="LogDBHeadersName" ConditionValue="Jclear" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Jclear">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Jclear/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Jclear/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Jclear/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Jclear/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Jclear/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Jclear/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Jclear/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Jclear/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Jclear/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Jclear/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Jclear/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Jclear/uop2_name_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Jclear/LDest_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Jclear/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Jclear/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Jclear/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Jclear/LSrc4_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/Jclear/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/Jclear/pDst_" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/Jclear/flowmarker_" type="string" />
+        <variable name="predTaken_" template="Building_Blocks/UTDBSource/Jclear/predTaken_" type="string" />
+        <variable name="bobID_" template="Building_Blocks/UTDBSource/Jclear/bobID_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Jclear/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Jclear/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Jclear/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Jclear/Event_Name_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/Jclear/mrninfo_" type="string" />
+      </variable_folder>
+      <variable_folder name="Creg_Access" type="variable" template="Building_Blocks/UTDBSource/Creg_Access" ConditionField="LogDBHeadersName" ConditionValue="Creg_Access" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Creg_Access">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Creg_Access/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Creg_Access/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Creg_Access/Time_" type="integer" />
+        <variable name="creg_name" template="Building_Blocks/UTDBSource/Creg_Access/creg_name" type="string" />
+        <variable name="creg_addr" template="Building_Blocks/UTDBSource/Creg_Access/creg_addr" type="string" />
+        <variable name="creg_value" template="Building_Blocks/UTDBSource/Creg_Access/creg_value" type="integer" />
+        <variable name="is_write" template="Building_Blocks/UTDBSource/Creg_Access/is_write" type="integer" />
+      </variable_folder>
+      <variable_folder name="UcodeLabel" type="variable" template="Building_Blocks/UTDBSource/UcodeLabel" ConditionField="LogDBHeadersName" ConditionValue="UcodeLabel" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\UcodeLabel">
+        <variable name="Type" template="Building_Blocks/UTDBSource/UcodeLabel/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/UcodeLabel/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/UcodeLabel/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/UcodeLabel/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/UcodeLabel/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/UcodeLabel/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/UcodeLabel/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/UcodeLabel/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/UcodeLabel/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/UcodeLabel/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/UcodeLabel/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/UcodeLabel/uop2_name_" type="string" />
+        <variable name="slot_" template="Building_Blocks/UTDBSource/UcodeLabel/slot_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/UcodeLabel/LDest_" type="string" />
+        <variable name="retData_" template="Building_Blocks/UTDBSource/UcodeLabel/retData_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/UcodeLabel/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/UcodeLabel/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/UcodeLabel/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/UcodeLabel/LSrc4_" type="string" />
+        <variable name="IPD_" template="Building_Blocks/UTDBSource/UcodeLabel/IPD_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/UcodeLabel/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/UcodeLabel/pDst_" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/UcodeLabel/flowmarker_" type="string" />
+        <variable name="x87FlagMask_" template="Building_Blocks/UTDBSource/UcodeLabel/x87FlagMask_" type="string" />
+        <variable name="FlgMsk_" template="Building_Blocks/UTDBSource/UcodeLabel/FlgMsk_" type="string" />
+        <variable name="fault_info_" template="Building_Blocks/UTDBSource/UcodeLabel/fault_info_" type="string" />
+        <variable name="fused_flt_info_" template="Building_Blocks/UTDBSource/UcodeLabel/fused_flt_info_" type="string" />
+        <variable name="FltFlgEx_" template="Building_Blocks/UTDBSource/UcodeLabel/FltFlgEx_" type="string" />
+        <variable name="FltFlgMem_" template="Building_Blocks/UTDBSource/UcodeLabel/FltFlgMem_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/UcodeLabel/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/UcodeLabel/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/UcodeLabel/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/UcodeLabel/Event_Name_" type="string" />
+        <variable name="step_" template="Building_Blocks/UTDBSource/UcodeLabel/step_" type="string" />
+        <variable name="ThreadID_" template="Building_Blocks/UTDBSource/UcodeLabel/ThreadID_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/UcodeLabel/mrninfo_" type="string" />
+        <variable name="Name" template="Building_Blocks/UTDBSource/UcodeLabel/Name" type="string" />
+      </variable_folder>
+      <variable_folder name="icon" type="variable" template="Building_Blocks/UTDBSource/icon" ConditionField="LogDBHeadersName" ConditionValue="icon" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\icon">
+        <variable name="Type" template="Building_Blocks/UTDBSource/icon/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/icon/tree_Level" type="integer" />
+        <variable name="struct_name" template="Building_Blocks/UTDBSource/icon/struct_name" type="string" />
+        <variable name="icon_name" template="Building_Blocks/UTDBSource/icon/icon_name" type="string" />
+        <variable name="value_type" template="Building_Blocks/UTDBSource/icon/value_type" type="string" />
+        <variable name="value_int" template="Building_Blocks/UTDBSource/icon/value_int" type="integer" />
+        <variable name="value_string" template="Building_Blocks/UTDBSource/icon/value_string" type="string" />
+        <variable name="value_bool" template="Building_Blocks/UTDBSource/icon/value_bool" type="integer" />
+        <variable name="value_enum" template="Building_Blocks/UTDBSource/icon/value_enum" type="string" />
+      </variable_folder>
+      <variable_folder name="archsim_mismatch" type="variable" template="Building_Blocks/UTDBSource/archsim_mismatch" ConditionField="LogDBHeadersName" ConditionValue="archsim_mismatch" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\archsim_mismatch">
+        <variable name="Type" template="Building_Blocks/UTDBSource/archsim_mismatch/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/archsim_mismatch/tree_Level" type="integer" />
+        <variable name="Step" template="Building_Blocks/UTDBSource/archsim_mismatch/Step" type="integer" />
+        <variable name="MismatchType" template="Building_Blocks/UTDBSource/archsim_mismatch/MismatchType" type="string" />
+        <variable name="Reg" template="Building_Blocks/UTDBSource/archsim_mismatch/Reg" type="string" />
+        <variable name="Addr" template="Building_Blocks/UTDBSource/archsim_mismatch/Addr" type="string" />
+        <variable name="RtlData" template="Building_Blocks/UTDBSource/archsim_mismatch/RtlData" type="string" />
+        <variable name="AsmData" template="Building_Blocks/UTDBSource/archsim_mismatch/AsmData" type="string" />
+        <variable name="RtlFuzz" template="Building_Blocks/UTDBSource/archsim_mismatch/RtlFuzz" type="string" />
+        <variable name="AsmFuzz" template="Building_Blocks/UTDBSource/archsim_mismatch/AsmFuzz" type="string" />
+        <variable name="RtlTag" template="Building_Blocks/UTDBSource/archsim_mismatch/RtlTag" type="string" />
+        <variable name="AsmTag" template="Building_Blocks/UTDBSource/archsim_mismatch/AsmTag" type="string" />
+        <variable name="asm_type" template="Building_Blocks/UTDBSource/archsim_mismatch/asm_type" type="string" />
+        <variable name="threadID" template="Building_Blocks/UTDBSource/archsim_mismatch/threadID" type="integer" />
+      </variable_folder>
+      <variable_folder name="treeTitle" type="variable" template="Building_Blocks/UTDBSource/treeTitle" ConditionField="LogDBHeadersName" ConditionValue="treeTitle" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\treeTitle">
+        <variable name="Type" template="Building_Blocks/UTDBSource/treeTitle/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/treeTitle/tree_Level" type="integer" />
+      </variable_folder>
+      <variable_folder name="archsim_comment" type="variable" template="Building_Blocks/UTDBSource/archsim_comment" ConditionField="LogDBHeadersName" ConditionValue="archsim_comment" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\archsim_comment">
+        <variable name="Type" template="Building_Blocks/UTDBSource/archsim_comment/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/archsim_comment/tree_Level" type="integer" />
+        <variable name="asm_type" template="Building_Blocks/UTDBSource/archsim_comment/asm_type" type="string" />
+        <variable name="Step" template="Building_Blocks/UTDBSource/archsim_comment/Step" type="integer" />
+        <variable name="threadID" template="Building_Blocks/UTDBSource/archsim_comment/threadID" type="integer" />
+      </variable_folder>
+      <variable_folder name="archsim_instr" type="variable" template="Building_Blocks/UTDBSource/archsim_instr" ConditionField="LogDBHeadersName" ConditionValue="archsim_instr" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\archsim_instr">
+        <variable name="Type" template="Building_Blocks/UTDBSource/archsim_instr/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/archsim_instr/tree_Level" type="integer" />
+        <variable name="Step" template="Building_Blocks/UTDBSource/archsim_instr/Step" type="integer" />
+        <variable name="Lip" template="Building_Blocks/UTDBSource/archsim_instr/Lip" type="string" />
+        <variable name="Encode" template="Building_Blocks/UTDBSource/archsim_instr/Encode" type="string" />
+        <variable name="Mnemonic" template="Building_Blocks/UTDBSource/archsim_instr/Mnemonic" type="string" />
+        <variable name="asm_type" template="Building_Blocks/UTDBSource/archsim_instr/asm_type" type="string" />
+        <variable name="threadID" template="Building_Blocks/UTDBSource/archsim_instr/threadID" type="integer" />
+      </variable_folder>
+      <variable_folder name="Retirement" type="variable" template="Building_Blocks/UTDBSource/Retirement" ConditionField="LogDBHeadersName" ConditionValue="Retirement" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Retirement">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Retirement/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Retirement/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Retirement/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Retirement/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Retirement/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Retirement/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Retirement/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Retirement/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Retirement/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Retirement/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Retirement/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Retirement/uop2_name_" type="string" />
+        <variable name="slot_" template="Building_Blocks/UTDBSource/Retirement/slot_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Retirement/LDest_" type="string" />
+        <variable name="retData_" template="Building_Blocks/UTDBSource/Retirement/retData_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Retirement/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Retirement/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Retirement/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Retirement/LSrc4_" type="string" />
+        <variable name="IPD_" template="Building_Blocks/UTDBSource/Retirement/IPD_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/Retirement/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/Retirement/pDst_" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/Retirement/flowmarker_" type="string" />
+        <variable name="x87FlagMask_" template="Building_Blocks/UTDBSource/Retirement/x87FlagMask_" type="string" />
+        <variable name="FlgMsk_" template="Building_Blocks/UTDBSource/Retirement/FlgMsk_" type="string" />
+        <variable name="fault_info_" template="Building_Blocks/UTDBSource/Retirement/fault_info_" type="string" />
+        <variable name="fused_flt_info_" template="Building_Blocks/UTDBSource/Retirement/fused_flt_info_" type="string" />
+        <variable name="FltFlgEx_" template="Building_Blocks/UTDBSource/Retirement/FltFlgEx_" type="string" />
+        <variable name="FltFlgMem_" template="Building_Blocks/UTDBSource/Retirement/FltFlgMem_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Retirement/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Retirement/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Retirement/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Retirement/Event_Name_" type="string" />
+        <variable name="step_" template="Building_Blocks/UTDBSource/Retirement/step_" type="string" />
+        <variable name="ThreadID_" template="Building_Blocks/UTDBSource/Retirement/ThreadID_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/Retirement/mrninfo_" type="string" />
+      </variable_folder>
+      <variable_folder name="Writeback" type="variable" template="Building_Blocks/UTDBSource/Writeback" ConditionField="LogDBHeadersName" ConditionValue="Writeback" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Writeback">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Writeback/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Writeback/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Writeback/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Writeback/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Writeback/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Writeback/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Writeback/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Writeback/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Writeback/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Writeback/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Writeback/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Writeback/uop2_name_" type="string" />
+        <variable name="wPort_" template="Building_Blocks/UTDBSource/Writeback/wPort_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Writeback/LDest_" type="string" />
+        <variable name="wbData_" template="Building_Blocks/UTDBSource/Writeback/wbData_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Writeback/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Writeback/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Writeback/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Writeback/LSrc4_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/Writeback/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/Writeback/pDst_" type="string" />
+        <variable name="BlendCtl_" template="Building_Blocks/UTDBSource/Writeback/BlendCtl_" type="string" />
+        <variable name="EuStkCtl_" template="Building_Blocks/UTDBSource/Writeback/EuStkCtl_" type="string" />
+        <variable name="MemStCtl_" template="Building_Blocks/UTDBSource/Writeback/MemStCtl_" type="string" />
+        <variable name="wb_fault_info_" template="Building_Blocks/UTDBSource/Writeback/wb_fault_info_" type="string" />
+        <variable name="wb_flags_" template="Building_Blocks/UTDBSource/Writeback/wb_flags_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Writeback/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Writeback/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Writeback/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Writeback/Event_Name_" type="string" />
+      </variable_folder>
+      <variable_folder name="archsim_decode" type="variable" template="Building_Blocks/UTDBSource/archsim_decode" ConditionField="LogDBHeadersName" ConditionValue="archsim_decode" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\archsim_decode">
+        <variable name="Type" template="Building_Blocks/UTDBSource/archsim_decode/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/archsim_decode/tree_Level" type="integer" />
+        <variable name="Step" template="Building_Blocks/UTDBSource/archsim_decode/Step" type="integer" />
+        <variable name="Mode" template="Building_Blocks/UTDBSource/archsim_decode/Mode" type="string" />
+        <variable name="asm_type" template="Building_Blocks/UTDBSource/archsim_decode/asm_type" type="string" />
+        <variable name="threadID" template="Building_Blocks/UTDBSource/archsim_decode/threadID" type="integer" />
+        <variable name="FullLine" template="Building_Blocks/UTDBSource/archsim_decode/FullLine" type="string" />
+      </variable_folder>
+      <variable_folder name="creg_inj" type="variable" template="Building_Blocks/UTDBSource/creg_inj" ConditionField="LogDBHeadersName" ConditionValue="creg_inj" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\creg_inj">
+        <variable name="Type" template="Building_Blocks/UTDBSource/creg_inj/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/creg_inj/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/creg_inj/Time_" type="integer" />
+        <variable name="creg_name" template="Building_Blocks/UTDBSource/creg_inj/creg_name" type="string" />
+        <variable name="is_field_write" template="Building_Blocks/UTDBSource/creg_inj/is_field_write" type="integer" />
+        <variable name="creg_write_type" template="Building_Blocks/UTDBSource/creg_inj/creg_write_type" type="string" />
+        <variable name="creg_value" template="Building_Blocks/UTDBSource/creg_inj/creg_value" type="integer" />
+        <variable name="creg_field_name" template="Building_Blocks/UTDBSource/creg_inj/creg_field_name" type="string" />
+        <variable name="creg_write_thread" template="Building_Blocks/UTDBSource/creg_inj/creg_write_thread" type="integer" />
+      </variable_folder>
+      <variable_folder name="obj" type="variable" template="Building_Blocks/UTDBSource/obj" ConditionField="LogDBHeadersName" ConditionValue="obj" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\obj">
+        <variable name="Type" template="Building_Blocks/UTDBSource/obj/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/obj/tree_Level" type="integer" />
+        <variable name="address" template="Building_Blocks/UTDBSource/obj/address" type="string" />
+        <variable name="value" template="Building_Blocks/UTDBSource/obj/value" type="string" />
+      </variable_folder>
+      <variable_folder name="Dispatch" type="variable" template="Building_Blocks/UTDBSource/Dispatch" ConditionField="LogDBHeadersName" ConditionValue="Dispatch" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Dispatch">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Dispatch/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Dispatch/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Dispatch/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Dispatch/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Dispatch/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Dispatch/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Dispatch/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Dispatch/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Dispatch/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Dispatch/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Dispatch/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Dispatch/uop2_name_" type="string" />
+        <variable name="dPort_" template="Building_Blocks/UTDBSource/Dispatch/dPort_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Dispatch/LDest_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Dispatch/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Dispatch/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Dispatch/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Dispatch/LSrc4_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/Dispatch/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/Dispatch/pDst_" type="string" />
+        <variable name="IMM_QA_" template="Building_Blocks/UTDBSource/Dispatch/IMM_QA_" type="string" />
+        <variable name="IMM_QB_" template="Building_Blocks/UTDBSource/Dispatch/IMM_QB_" type="string" />
+        <variable name="IMM_QC_" template="Building_Blocks/UTDBSource/Dispatch/IMM_QC_" type="string" />
+        <variable name="ZC_S1_" template="Building_Blocks/UTDBSource/Dispatch/ZC_S1_" type="string" />
+        <variable name="ZC_S2_" template="Building_Blocks/UTDBSource/Dispatch/ZC_S2_" type="string" />
+        <variable name="ZC_S3_" template="Building_Blocks/UTDBSource/Dispatch/ZC_S3_" type="string" />
+        <variable name="ZC_S4_" template="Building_Blocks/UTDBSource/Dispatch/ZC_S4_" type="string" />
+        <variable name="BlendCtl_" template="Building_Blocks/UTDBSource/Dispatch/BlendCtl_" type="string" />
+        <variable name="EuStkCtl_" template="Building_Blocks/UTDBSource/Dispatch/EuStkCtl_" type="string" />
+        <variable name="MemStCtl_" template="Building_Blocks/UTDBSource/Dispatch/MemStCtl_" type="string" />
+        <variable name="Lat_" template="Building_Blocks/UTDBSource/Dispatch/Lat_" type="string" />
+        <variable name="IMM_CTRL_" template="Building_Blocks/UTDBSource/Dispatch/IMM_CTRL_" type="string" />
+        <variable name="IMM_QU_" template="Building_Blocks/UTDBSource/Dispatch/IMM_QU_" type="string" />
+        <variable name="RS_En_" template="Building_Blocks/UTDBSource/Dispatch/RS_En_" type="string" />
+        <variable name="SRC1_data_" template="Building_Blocks/UTDBSource/Dispatch/SRC1_data_" type="string" />
+        <variable name="S1_BP_Port_" template="Building_Blocks/UTDBSource/Dispatch/S1_BP_Port_" type="string" />
+        <variable name="S1_BP_data_" template="Building_Blocks/UTDBSource/Dispatch/S1_BP_data_" type="string" />
+        <variable name="SRC2_data_" template="Building_Blocks/UTDBSource/Dispatch/SRC2_data_" type="string" />
+        <variable name="S2_BP_Port_" template="Building_Blocks/UTDBSource/Dispatch/S2_BP_Port_" type="string" />
+        <variable name="S2_BP_data_" template="Building_Blocks/UTDBSource/Dispatch/S2_BP_data_" type="string" />
+        <variable name="SRC3_data_" template="Building_Blocks/UTDBSource/Dispatch/SRC3_data_" type="string" />
+        <variable name="S3_BP_Port_" template="Building_Blocks/UTDBSource/Dispatch/S3_BP_Port_" type="string" />
+        <variable name="S3_BP_data_" template="Building_Blocks/UTDBSource/Dispatch/S3_BP_data_" type="string" />
+        <variable name="SRC4_data_" template="Building_Blocks/UTDBSource/Dispatch/SRC4_data_" type="string" />
+        <variable name="S4_BP_Port_" template="Building_Blocks/UTDBSource/Dispatch/S4_BP_Port_" type="string" />
+        <variable name="S4_BP_data_" template="Building_Blocks/UTDBSource/Dispatch/S4_BP_data_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Dispatch/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Dispatch/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Dispatch/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Dispatch/Event_Name_" type="string" />
+      </variable_folder>
+      <variable_folder name="rtlsi_step" type="variable" template="Building_Blocks/UTDBSource/rtlsi_step" ConditionField="LogDBHeadersName" ConditionValue="rtlsi_step" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\rtlsi_step">
+        <variable name="Type" template="Building_Blocks/UTDBSource/rtlsi_step/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/rtlsi_step/tree_Level" type="integer" />
+        <variable name="rtlsi_uid" template="Building_Blocks/UTDBSource/rtlsi_step/rtlsi_uid" type="string" />
+        <variable name="threadID" template="Building_Blocks/UTDBSource/rtlsi_step/threadID" type="integer" />
+        <variable name="asm_type" template="Building_Blocks/UTDBSource/rtlsi_step/asm_type" type="string" />
+        <variable name="Step" template="Building_Blocks/UTDBSource/rtlsi_step/Step" type="integer" />
+      </variable_folder>
+      <variable_folder name="MEU_Common" type="variable" template="Building_Blocks/UTDBSource/MEU_Common" ConditionField="LogDBHeadersName" ConditionValue="MEU_Common" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\MEU_Common">
+        <variable name="Type" template="Building_Blocks/UTDBSource/MEU_Common/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/MEU_Common/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/MEU_Common/Time_" type="integer" />
+        <variable name="Thrd_" template="Building_Blocks/UTDBSource/MEU_Common/Thrd_" type="string" />
+        <variable name="Port_" template="Building_Blocks/UTDBSource/MEU_Common/Port_" type="string" />
+        <variable name="Rob_ID_" template="Building_Blocks/UTDBSource/MEU_Common/Rob_ID_" type="integer" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/MEU_Common/URI_LID_" type="string" />
+        <variable name="Event_Description_" template="Building_Blocks/UTDBSource/MEU_Common/Event_Description_" type="string" />
+        <variable name="Pipe_Stage_" template="Building_Blocks/UTDBSource/MEU_Common/Pipe_Stage_" type="string" />
+        <variable name="Mem_Type_" template="Building_Blocks/UTDBSource/MEU_Common/Mem_Type_" type="string" />
+        <variable name="LBID_" template="Building_Blocks/UTDBSource/MEU_Common/LBID_" type="integer" />
+        <variable name="SBID_" template="Building_Blocks/UTDBSource/MEU_Common/SBID_" type="integer" />
+        <variable name="Linaddr_" template="Building_Blocks/UTDBSource/MEU_Common/Linaddr_" type="integer" />
+        <variable name="Phyaddr_" template="Building_Blocks/UTDBSource/MEU_Common/Phyaddr_" type="integer" />
+        <variable name="Uopcode_" template="Building_Blocks/UTDBSource/MEU_Common/Uopcode_" type="string" />
+        <variable name="Stat_" template="Building_Blocks/UTDBSource/MEU_Common/Stat_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/MEU_Common/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/MEU_Common/URI_TID_" type="string" />
+        <variable name="Comments_" template="Building_Blocks/UTDBSource/MEU_Common/Comments_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/MEU_Common/Event_Name_" type="string" />
+      </variable_folder>
+      <variable_folder name="Mem_Access" type="variable" template="Building_Blocks/UTDBSource/Mem_Access" ConditionField="LogDBHeadersName" ConditionValue="Mem_Access" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Mem_Access">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Mem_Access/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Mem_Access/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Mem_Access/Time_" type="integer" />
+        <variable name="linear_address" template="Building_Blocks/UTDBSource/Mem_Access/linear_address" type="string" />
+        <variable name="physical_address" template="Building_Blocks/UTDBSource/Mem_Access/physical_address" type="string" />
+        <variable name="memory_type" template="Building_Blocks/UTDBSource/Mem_Access/memory_type" type="string" />
+        <variable name="is_store" template="Building_Blocks/UTDBSource/Mem_Access/is_store" type="integer" />
+        <variable name="ma_data" template="Building_Blocks/UTDBSource/Mem_Access/ma_data" type="string" />
+      </variable_folder>
+      <variable_folder name="Uop" type="variable" template="Building_Blocks/UTDBSource/Uop" ConditionField="LogDBHeadersName" ConditionValue="Uop" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Uop">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Uop/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Uop/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Uop/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Uop/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Uop/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Uop/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Uop/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Uop/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Uop/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Uop/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Uop/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Uop/uop2_name_" type="string" />
+        <variable name="slot_" template="Building_Blocks/UTDBSource/Uop/slot_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Uop/LDest_" type="string" />
+        <variable name="retData_" template="Building_Blocks/UTDBSource/Uop/retData_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Uop/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Uop/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Uop/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Uop/LSrc4_" type="string" />
+        <variable name="IPD_" template="Building_Blocks/UTDBSource/Uop/IPD_" type="string" />
+        <variable name="roID_" template="Building_Blocks/UTDBSource/Uop/roID_" type="string" />
+        <variable name="pDst_" template="Building_Blocks/UTDBSource/Uop/pDst_" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/Uop/flowmarker_" type="string" />
+        <variable name="x87FlagMask_" template="Building_Blocks/UTDBSource/Uop/x87FlagMask_" type="string" />
+        <variable name="FlgMsk_" template="Building_Blocks/UTDBSource/Uop/FlgMsk_" type="string" />
+        <variable name="fault_info_" template="Building_Blocks/UTDBSource/Uop/fault_info_" type="string" />
+        <variable name="fused_flt_info_" template="Building_Blocks/UTDBSource/Uop/fused_flt_info_" type="string" />
+        <variable name="FltFlgEx_" template="Building_Blocks/UTDBSource/Uop/FltFlgEx_" type="string" />
+        <variable name="FltFlgMem_" template="Building_Blocks/UTDBSource/Uop/FltFlgMem_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Uop/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Uop/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Uop/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Uop/Event_Name_" type="string" />
+        <variable name="step_" template="Building_Blocks/UTDBSource/Uop/step_" type="string" />
+        <variable name="ThreadID_" template="Building_Blocks/UTDBSource/Uop/ThreadID_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/Uop/mrninfo_" type="string" />
+      </variable_folder>
+      <variable_folder name="archsim_reg_change" type="variable" template="Building_Blocks/UTDBSource/archsim_reg_change" ConditionField="LogDBHeadersName" ConditionValue="archsim_reg_change" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\archsim_reg_change">
+        <variable name="Type" template="Building_Blocks/UTDBSource/archsim_reg_change/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/archsim_reg_change/tree_Level" type="integer" />
+        <variable name="register" template="Building_Blocks/UTDBSource/archsim_reg_change/register" type="string" />
+        <variable name="value" template="Building_Blocks/UTDBSource/archsim_reg_change/value" type="string" />
+        <variable name="asm_type" template="Building_Blocks/UTDBSource/archsim_reg_change/asm_type" type="string" />
+        <variable name="Step" template="Building_Blocks/UTDBSource/archsim_reg_change/Step" type="integer" />
+        <variable name="threadID" template="Building_Blocks/UTDBSource/archsim_reg_change/threadID" type="integer" />
+      </variable_folder>
+      <variable_folder name="Issue" type="variable" template="Building_Blocks/UTDBSource/Issue" ConditionField="LogDBHeadersName" ConditionValue="Issue" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\Issue">
+        <variable name="Type" template="Building_Blocks/UTDBSource/Issue/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/Issue/tree_Level" type="integer" />
+        <variable name="Time_" template="Building_Blocks/UTDBSource/Issue/Time_" type="integer" />
+        <variable name="St_" template="Building_Blocks/UTDBSource/Issue/St_" type="string" />
+        <variable name="uid_" template="Building_Blocks/UTDBSource/Issue/uid_" type="string" />
+        <variable name="uIP_" template="Building_Blocks/UTDBSource/Issue/uIP_" type="string" />
+        <variable name="LIP_" template="Building_Blocks/UTDBSource/Issue/LIP_" type="string" />
+        <variable name="F_" template="Building_Blocks/UTDBSource/Issue/F_" type="string" />
+        <variable name="opCod_" template="Building_Blocks/UTDBSource/Issue/opCod_" type="string" />
+        <variable name="uop_name_" template="Building_Blocks/UTDBSource/Issue/uop_name_" type="string" />
+        <variable name="opCod2_" template="Building_Blocks/UTDBSource/Issue/opCod2_" type="string" />
+        <variable name="uop2_name_" template="Building_Blocks/UTDBSource/Issue/uop2_name_" type="string" />
+        <variable name="slot_" template="Building_Blocks/UTDBSource/Issue/slot_" type="string" />
+        <variable name="LDest_" template="Building_Blocks/UTDBSource/Issue/LDest_" type="string" />
+        <variable name="LSeg_" template="Building_Blocks/UTDBSource/Issue/LSeg_" type="string" />
+        <variable name="IsDSB_" template="Building_Blocks/UTDBSource/Issue/IsDSB_" type="string" />
+        <variable name="LSrc1_" template="Building_Blocks/UTDBSource/Issue/LSrc1_" type="string" />
+        <variable name="LSrc2_" template="Building_Blocks/UTDBSource/Issue/LSrc2_" type="string" />
+        <variable name="LSrc3_" template="Building_Blocks/UTDBSource/Issue/LSrc3_" type="string" />
+        <variable name="LSrc4_" template="Building_Blocks/UTDBSource/Issue/LSrc4_" type="string" />
+        <variable name="IPD_" template="Building_Blocks/UTDBSource/Issue/IPD_" type="string" />
+        <variable name="TOS_AvxSSEstate__" template="Building_Blocks/UTDBSource/Issue/TOS_AvxSSEstate__" type="string" />
+        <variable name="TOS_BCST__" template="Building_Blocks/UTDBSource/Issue/TOS_BCST__" type="string" />
+        <variable name="TOS_Mask__" template="Building_Blocks/UTDBSource/Issue/TOS_Mask__" type="string" />
+        <variable name="TOS_TOSAdjst__" template="Building_Blocks/UTDBSource/Issue/TOS_TOSAdjst__" type="string" />
+        <variable name="flowmarker_" template="Building_Blocks/UTDBSource/Issue/flowmarker_" type="string" />
+        <variable name="id_is_mfipd_" template="Building_Blocks/UTDBSource/Issue/id_is_mfipd_" type="string" />
+        <variable name="MEcand_" template="Building_Blocks/UTDBSource/Issue/MEcand_" type="string" />
+        <variable name="IMM_QA_" template="Building_Blocks/UTDBSource/Issue/IMM_QA_" type="string" />
+        <variable name="IMM_QB_" template="Building_Blocks/UTDBSource/Issue/IMM_QB_" type="string" />
+        <variable name="IMM_QC_" template="Building_Blocks/UTDBSource/Issue/IMM_QC_" type="string" />
+        <variable name="URI_LID_" template="Building_Blocks/UTDBSource/Issue/URI_LID_" type="string" />
+        <variable name="URI_PID_" template="Building_Blocks/UTDBSource/Issue/URI_PID_" type="string" />
+        <variable name="URI_TID_" template="Building_Blocks/UTDBSource/Issue/URI_TID_" type="string" />
+        <variable name="Event_Name_" template="Building_Blocks/UTDBSource/Issue/Event_Name_" type="string" />
+        <variable name="mrninfo_" template="Building_Blocks/UTDBSource/Issue/mrninfo_" type="string" />
+      </variable_folder>
+      <variable_folder name="archsim_mem_change" type="variable" template="Building_Blocks/UTDBSource/archsim_mem_change" ConditionField="LogDBHeadersName" ConditionValue="archsim_mem_change" OperatorName="" instance_of_template_in_folder="Building_Blocks/UTDBSource\archsim_mem_change">
+        <variable name="Type" template="Building_Blocks/UTDBSource/archsim_mem_change/Type" type="string" />
+        <variable name="tree_Level" template="Building_Blocks/UTDBSource/archsim_mem_change/tree_Level" type="integer" />
+        <variable name="transid" template="Building_Blocks/UTDBSource/archsim_mem_change/transid" type="string" />
+        <variable name="is_trans" template="Building_Blocks/UTDBSource/archsim_mem_change/is_trans" type="integer" />
+        <variable name="is_physical_access" template="Building_Blocks/UTDBSource/archsim_mem_change/is_physical_access" type="integer" />
+        <variable name="trans_OperationType" template="Building_Blocks/UTDBSource/archsim_mem_change/trans_OperationType" type="string" />
+        <variable name="Virtual_Selector" template="Building_Blocks/UTDBSource/archsim_mem_change/Virtual_Selector" type="string" />
+        <variable name="Virtual_Offset" template="Building_Blocks/UTDBSource/archsim_mem_change/Virtual_Offset" type="integer" />
+        <variable name="LinearAddress" template="Building_Blocks/UTDBSource/archsim_mem_change/LinearAddress" type="string" />
+        <variable name="PhysicalAccessType" template="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalAccessType" type="string" />
+        <variable name="Physical_OperationType" template="Building_Blocks/UTDBSource/archsim_mem_change/Physical_OperationType" type="string" />
+        <variable name="PhysicalAddress" template="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalAddress" type="string" />
+        <variable name="PhysicalMemType" template="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalMemType" type="string" />
+        <variable name="PhysicalSize" template="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalSize" type="integer" />
+        <variable name="PhysicalValue" template="Building_Blocks/UTDBSource/archsim_mem_change/PhysicalValue" type="string" />
+        <variable name="Tag" template="Building_Blocks/UTDBSource/archsim_mem_change/Tag" type="string" />
+        <variable name="asm_type" template="Building_Blocks/UTDBSource/archsim_mem_change/asm_type" type="string" />
+        <variable name="Step" template="Building_Blocks/UTDBSource/archsim_mem_change/Step" type="integer" />
+        <variable name="threadID" template="Building_Blocks/UTDBSource/archsim_mem_change/threadID" type="integer" />
+      </variable_folder>
+    </variable_folder>
+  </variable_folder>
+  <scenario name="wrapper_issue" id="Scenarios/BigCore/wrapper_issue" Activity="triage;checkers;coverage" Creator="gtabajah" Date="2017-03-27T14:53:41" Last_Updated="2017-03-28T10:59:50" Open_In="Tree View" Project="" comments="Scenarios/BigCore/NewScenario" instance_of_template_in_folder="Scenarios/BigCore\wrapper_issue">
+    <Event_Definition>e1  = packet(Uop);
+//filter(e1, FIRST);
+
+
+//e1  = packet(Uop);
+//filter(e1, LAST);
+
+// DB.uops.first.allocations.last.UOP_NAME
+//e2 = packet(*, LogDBIndex == 8992);
+//getChildren(e1, "new_parent_child").filter(packet(Allocation),FIRST);
+//e2 = getChildren(e1, "new_parent_child").filter(packet(*),FIRST);
+//e3 = e2.filter(packet(Allocation),LAST);
+//e3;
+
+//getChildren(e1, "new_parent_child").filter(packet(*),FIRST).filter(packet(Allocation),LAST);
+
+//DB.uops.last.allocations.first
+//e2 = packet(*, LogDBIndex == 21582);
+//getChildren(e2, "new_parent_child").filter(packet(Allocation),FIRST);
+
+//getChildren(e1,"new_parent_child").filter(Allocation, FIRST);
+
+//e1 = filter(packet(Uop),LAST).getAllChildrenRecursively();
+//e1 = filter(packet(MacroInstr),FIRST).getAllChildrenRecursively();
+//e1 = filter(packet(Uop),FIRST).getAllChildrenRecursively('Type', 'Allocation');
+//e1;
+//filter(e1, LAST);
+//.first().filter(packet(Allocation));
+//e2 = filter(packet(Allocation));
+</Event_Definition>
+    <mydescription>Scenarios/BigCore/NewScenario
+/nfs/iil/proj/dt/prv01/fpv/work/gtabajah/bigcore/mem_ld_st_pm/core_tree_view_db/
+</mydescription>
+  </scenario>
+  <scenario name="NewScenario" id="Scenarios/BigCore/NewScenario" Activity="triage;checkers;coverage" Creator="gtabajah" Date="2017-03-28T10:47:58" Last_Updated="2017-03-28T10:57:32" Open_In="Table View" Project="" instance_of_template_in_folder="Scenarios/BigCore\NewScenario" />
+  <scenario_folder name="Scenarios" type="scenario">
+    <scenario_folder name="BigCore" type="scenario" template="Scenarios/BigCore" Activity="triage;checkers;coverage" Creator="gtabajah" Date="2017-03-27T14:53:28" Last_Updated="2017-03-27T14:53:28" Open_In="Table View" Project="" instance_of_template_in_folder="Scenarios\BigCore">
+      <scenario name="wrapper_issue" template="Scenarios/BigCore/wrapper_issue" Activity="triage;checkers;coverage" Creator="gtabajah" Date="2017-03-27T14:53:41" Last_Updated="2017-03-28T10:59:50" Open_In="Tree View" Project="" comments="Scenarios/BigCore/NewScenario" instance_of_template_in_folder="Scenarios/BigCore\wrapper_issue">
+        <Event_Definition>e1  = packet(Uop);
+//filter(e1, FIRST);
+
+
+//e1  = packet(Uop);
+//filter(e1, LAST);
+
+// DB.uops.first.allocations.last.UOP_NAME
+//e2 = packet(*, LogDBIndex == 8992);
+//getChildren(e1, "new_parent_child").filter(packet(Allocation),FIRST);
+//e2 = getChildren(e1, "new_parent_child").filter(packet(*),FIRST);
+//e3 = e2.filter(packet(Allocation),LAST);
+//e3;
+
+//getChildren(e1, "new_parent_child").filter(packet(*),FIRST).filter(packet(Allocation),LAST);
+
+//DB.uops.last.allocations.first
+//e2 = packet(*, LogDBIndex == 21582);
+//getChildren(e2, "new_parent_child").filter(packet(Allocation),FIRST);
+
+//getChildren(e1,"new_parent_child").filter(Allocation, FIRST);
+
+//e1 = filter(packet(Uop),LAST).getAllChildrenRecursively();
+//e1 = filter(packet(MacroInstr),FIRST).getAllChildrenRecursively();
+//e1 = filter(packet(Uop),FIRST).getAllChildrenRecursively('Type', 'Allocation');
+//e1;
+//filter(e1, LAST);
+//.first().filter(packet(Allocation));
+//e2 = filter(packet(Allocation));
+</Event_Definition>
+        <mydescription>Scenarios/BigCore/NewScenario
+/nfs/iil/proj/dt/prv01/fpv/work/gtabajah/bigcore/mem_ld_st_pm/core_tree_view_db/
+</mydescription>
+      </scenario>
+      <scenario name="NewScenario" template="Scenarios/BigCore/NewScenario" Activity="triage;checkers;coverage" Creator="gtabajah" Date="2017-03-28T10:47:58" Last_Updated="2017-03-28T10:57:32" Open_In="Table View" Project="" instance_of_template_in_folder="Scenarios/BigCore\NewScenario" />
+    </scenario_folder>
+  </scenario_folder>
+</VSM_Model>
