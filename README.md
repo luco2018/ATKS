@@ -3,67 +3,127 @@ SPDX-License-Identifier: BSD-3-Clause
 
 Automation Through Knowledge Sharing (ATKS)
 ------------
-[Package description](#package-description)    
+[Package description](#package-description)  
+[ATKS components](#atks-components)
 
 Package description
 ----------------------
 
-ATKS was developed to solve a simple problem: debug information was tribal, poorly communicated and globally distributed.  
-  
+ATKS and [ThenWhatTree](https://github.com/intel/ThenWhatTree) were developed to solve a simple problem: debug information was tribal, poorly communicated and globally distributed.  The two packages are standalone but together define a formalism for platform-agnostic, extensible debug scripting.  While we encourage teams to use the ThenWhatTree package to define executables, the VASE platform can run any python modules that users choose.  This README contains examples based on ThenWhatTree executables.  
 
-Running ATKS
----
+
+Block diagram
+---------
+<pre>
+                               +----------+      +----------+      +----------+
+                               |          |      |          |      |          |
+                               | Plugin_1 |      | Plugin_2 |      | Plugin_3 |
+                               |          |      |          |      |          |
+                               +------^---+      +-------^--+      +--------^-+
+                                      |                  |                  |
+                                      |                  |                  |
+                               +------+------------------+------------------+-----+
+                               |                                                  |
+                               |                       ATKS                       |
+                               |                                                  |
+                               +--+----------------------+----------------------+-+
+                                  |                      |                      |
+                                  |                      |                      |
+                                  |                      |                      |
+                        +---------v-+             +------v----+             +---v-------+
+                        |           |             |           |             |           |
+                        | Project_A |             | Project_B |             | Project_C |
++--------------+        |           |             |           |             |           |
+|              <--------+-+-------+-+             +------+----+             +---+---+---+
+| Executable_1 |          |       |                      |                      |   |
+|              |          |       |                      |                      |   |
++--------------+          |       |                      |                      |   |  +--------------+
+                          |       |             +--------v-----+                |   +-->              |
+            +-------------v+      |             |              |                |      | Executable_6 |
+            |              |      |             | Executable_4 |                |      |              |
+            | Executable_2 |      |             |              |      +---------v----+ +--------------+
+            |              |      |             +--------------+      |              |
+            +--------------+      |                                   | Executable_5 |
+                                  |                                   |              |
+                          +-------v------+                            +--------------+
+                          |              |
+                          | Executable_3 |
+                          |              |
+                          +--------------+
+</pre>
+
+
+
+ATKS components
+--------
 Prior to running ATKS, you will need to create the projects and executables that ATKS will consume.
+
+[Projects](#projects)<br>
+[Executables](#executables)<br>
+[ThenWhatTree_libs](#thenwhattree_libs)
+[Plugins](#plugins)<br>
 
 Projects
 ---
-All ATKS projects extend from the AtksProject object.  A project is a collection of executables.  The components of an ATKS project are shown here with a brief desription of each below.  As with all directories in ATKS collateral, an '__init__.py' file must be present.
+All ATKS projects extend from the AtksProject class.  A project is a collection of executables.  
+
+my_project.py
+---
+The sole purpose of this file is to create a class extension of the AtksProject object with the project name.  There are no constraints on the name of this file.
 <pre>
-> ls
-Executables  ThenWhatTree_libs  __init__.py  my_project.py
+> cat my_project.py<br>
+
+#!/usr/bin/env/python3
+"""Project description here"""<br>
+\# Import local modules
+from atks import AtksProject<br>
+\# Code starts here<br>
+class my_project(AtksProject):
+&nbsp;   pass
 </pre>
 
 Executables
 ---
-The executables directory contains an empty __init__.py file and any scripts that will be run as part of that project.  There are no constraints on the name of this directory, however, the name should be unique to avoid aliasing with executables from other ATKS projects.
+All ATKS executables extend from the AtksExecutable class.  An executable must import the project to which it belongs.<br>
+
+The executables directory contains an empty \_\_init__.py file and any scripts available to be run.  ATKS expects an executable to return a string.  There are no constraints on the name of a project, however, the name should be unique to avoid aliasing with executables from other ATKS projects.
 <pre>
 > ls Executables/
 __init__.py  my_flow.py
 </pre>
+
+my_flow.py
+---
 Example source code is below.  There are no constraints on the name of the class.  Whatever name is given will be used to identify the tree output in atks.log.
 <pre>
 #!/usr/bin/env/python3.6.1
-
-"""Project description here"""
-
-\# Import built in modules
-import os
-
-\# Import 3rd party modules
-
-\# Import local modules
+"""Project description here"""<br>
 import AtksExecutableTWT
-from my_project import my_project
+from my_project import my_project<br>
 
 class my_flow(AtksExecutableTWT, Project = my_project, xml_path = \<path to XML file with ThenWhatTree nodes>):
-    pass
+&nbsp;   pass
 </pre>
 There are two sections that need to be updated for each specific executable.
 <ol>
-<li>Imports</li>
+<b><li>Imports</li></b>
 The project must be imported so that it can be passed as part of the class declaration.
 <pre>
-# Import local modules
 import AtksExecutableTWT
 from my_project import my_project
 </pre>
-<li>Class definition</li>
+<b><li>Class definition</li></b>
 A class must be defined that contains an 'execute' method.  When using the ThenWhatTree package to define executable collateral, the class definition looks like this.  The xml_path is specific to this example and directory structure.  It is only required to be a full path to a XML file inside a ThenWhatTree library of python modules.  The default behavior is for the class to do nothing and pass.
 <pre>
 
 class my_flow(AtksExecutableTWT, Project = my_project, xml_path = \<path to XML file with ThenWhatTree nodes>):
     pass
 </pre>
+</ol>  
+
+[[twt|ThenWhatTree/blob/master/README.md#example-input-and-output]]
+Sample output  
+---
 The output from the executable will be under the name of the class ('my_flow' in this example) in the atks.log file.
 <pre>
 Output from Project my_project: 
@@ -76,7 +136,6 @@ Output from Executable my_flow:  <----------------------------
     Subnode2 : false
     Subnode3 : NotImplementedError
 </pre>
-</ol>
 
 ThenWhatTree_libs
 ---
@@ -93,29 +152,8 @@ Rootnode.xml    Subnode32.py      Subnode111.py     Subnode2.py
 Rootnode.xml    Subnode1.py       Subnode12.py      Subnode3.py
 </pre>
 
-my_project.py
----
-The sole purpose of this file is to create a class extension of the AtksProject object with the project name.  There are no constraints on the name of this file.
-<pre>
-> cat my_project.py
-#!/usr/bin/env/python3
 
-"""Project description here"""
-
-\# Import local modules
-from atks import AtksProject
-
-\# Code starts here
-
-class my_project(AtksProject):
-    pass
-</pre>
-
-Creating trees
------
-Read about the ThenWhatTree package [here](https://github.com/intel/ThenWhatTree)
-
-Creating plugins
+Plugins
 ---
 FIXME
 
