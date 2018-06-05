@@ -121,21 +121,7 @@ class my_flow(AtksExecutableTWT, Project = my_project, xml_path = \<path to XML 
 </pre>
 </ol>  
 
-[[twt|ThenWhatTree/blob/master/README.md#example-input-and-output]]
-Sample output  
----
-The output from the executable will be under the name of the class ('my_flow' in this example) in the atks.log file.
-<pre>
-Output from Project my_project: 
-Output from Executable my_flow:  <---------------------------- 
-[0] Rootnode : true
-    [1] Subnode1 : true
-        [2] Subnode11 : true
-        Subnode12 : NotImplementedError
-        Subnode13 : ZeroDivisionError('division by zero',)
-    Subnode2 : false
-    Subnode3 : NotImplementedError
-</pre>
+Sample input and output from ThenWhatTree executables can be found [here](https://github.com/intel/ThenWhatTree/blob/master/README.md#example-input-and-output)
 
 ThenWhatTree_libs
 ---
