@@ -169,38 +169,31 @@ The output file name can be configured in the AtksConfig
 The hints from all scripts are collected into the atks/atks.log file in your run directory.  Example output from the decision tree created for my_flow is shown below.  Features of the report include:
   * The name of the project
   * The name of the executable
-  * Annotation of the tree showing the results of the walk and the index of the hint for each node returning 'True'
-  * Annotation of the decision tree showing nodes that raised exceptions
-  * Indexed list of all hints that were found
-  * List of the node raising exceptions with type
-  * List of the traceback for each exception
+  * String returned from executable
   
-The example below is from our internal testing.  The intent is to show the structure and content of atks.log.  
+The example below is from an ATKS that has the following components:
+Project: my_project_A
+Executables registered with my_project_A:  my_flow_A1 my_flow_A2 my_flow_A3
+
+Project: my_project_B
+Executables registered with my_project_B:  my_flow_B1
+
+from our internal testing.  The intent is to show the structure and content of atks.log.  
 <pre>
-Output from Project my_project: 
-Output from Executable my_flow: 
-[0] Rootnode : true
-    [1] Subnode1 : true
-        [2] Subnode11 : true
-        Subnode12 : NotImplementedError
-        Subnode13 : ZeroDivisionError('division by zero',)
-    Subnode2 : false
-    Subnode3 : NotImplementedError
-<br>
+Output from Project my_project_A: 
+Output from Executable my_flow_A1: 
+\<String returned from executable my_flow_A1>
 
-Node output:
-\------------
-[0] Rootnode is true
-[1] Subnode1 is true
-[2] Subnode11 is true
+Output from Project my_project_A: 
+Output from Executable my_flow_A2: 
+\<String returned from executable my_flow_A2>
 
-Exceptions:
-\-----------
-Subnode12: NotImplementedError
-Subnode13: ZeroDivisionError('division by zero',)
-Subnode3: NotImplementedError
+Output from Project my_project_A: 
+Output from Executable my_flow_A3: 
+\<String returned from executable my_flow_A2>
 
-Exception traceback:
-\--------------------
-Subnode13: ['  File "ThenWhatTree/lib/twt_node/ThenWhatTreeNode.py", line 67, in evaluate_node_is_true\n    node_is_true = str(self.is_true()).lower()\n', '  File "ThenWhatTree_libs/my_flow/Subnode13.py", line 14, in is_true\n    return 1/0\n']
+Output from Project my_project_B: 
+Output from Executable my_flow_B1: 
+\<String returned from executable my_flow_B1>
+
 </pre>
