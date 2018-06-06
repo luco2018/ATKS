@@ -102,10 +102,10 @@ While we encourage teams to use the ThenWhatTree package to define executables, 
 The executables directory contains an empty \_\_init__.py file and any scripts available to be run.  ATKS expects an executable to return a string.  There are no constraints on the name of a project, however, the name should be unique to avoid aliasing with executables from other ATKS projects.
 <pre>
 > ls Executables/
-__init__.py  my_flow.py
+__init__.py  my_executable.py
 </pre>
 
-my_flow.py
+my_executable.py
 ---
 Example source code for an executable built from a [ThenWhatTree](https://github.com/intel/ThenWhatTree) is below.  There are no constraints on the name of the class.  Whatever name is given will be used to identify the tree output in atks.log.
 <pre>
@@ -114,7 +114,7 @@ Example source code for an executable built from a [ThenWhatTree](https://github
 import AtksExecutableTWT
 from my_project import my_project<br>
 
-class my_flow(AtksExecutableTWT, Project = my_project, xml_path = \<path to XML file with ThenWhatTree nodes>):
+class my_executable(AtksExecutableTWT, Project = my_project, xml_path = \<path to XML file with ThenWhatTree nodes>):
 &nbsp;   pass
 </pre>
 There are two sections that need to be updated for each specific executable.
@@ -129,7 +129,7 @@ from my_project import my_project
 A class must be defined that contains an 'execute' method.  When using the ThenWhatTree package to define executable collateral, the class definition looks like this.  The xml_path is specific to this example and directory structure.  It is only required to be a full path to a XML file inside a ThenWhatTree library of python modules.  The default behavior is for the class to do nothing and pass.
 <pre>
 
-class my_flow(AtksExecutableTWT, Project = my_project, xml_path = \<path to XML file with ThenWhatTree nodes>):
+class my_executable(AtksExecutableTWT, Project = my_project, xml_path = \<path to XML file with ThenWhatTree nodes>):
     pass
 </pre>
 </ol>  
@@ -167,27 +167,27 @@ The hints from all scripts are collected into the atks/atks.log file in your run
   
 The example below is from an ATKS that has the following components:
 Project: my_project_A
-Executables registered with my_project_A:  my_flow_A1 my_flow_A2 my_flow_A3
+Executables registered with my_project_A:  my_executable_A1 my_executable_A2 my_executable_A3
 
 Project: my_project_B
-Executables registered with my_project_B:  my_flow_B1
+Executables registered with my_project_B:  my_executable_B1
 
 from our internal testing.  The intent is to show the structure and content of atks.log.  
 <pre>
 Output from Project my_project_A: 
-Output from Executable my_flow_A1:  
+Output from Executable my_executable_A1:  
 
-\<String returned from executable my_flow_A1>
-
-Output from Project my_project_A: 
-Output from Executable my_flow_A2: 
-\<String returned from executable my_flow_A2>
+\<String returned from my_executable_A1>
 
 Output from Project my_project_A: 
-Output from Executable my_flow_A3: 
-\<String returned from executable my_flow_A2>
+Output from Executable my_executable_A2: 
+\<String returned from my_executable_A2>
+
+Output from Project my_project_A: 
+Output from Executable my_executable_A3: 
+\<String returned from my_executable_A2>
 
 Output from Project my_project_B: 
-Output from Executable my_flow_B1: 
-\<String returned from executable my_flow_B1>
+Output from Executable my_executable_B1: 
+\<String returned from my_executable_B1>
 </pre>
