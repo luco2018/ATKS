@@ -170,8 +170,8 @@ The example below is from an ATKS that has the following components:
 Project: 
 &nbsp;    my_project_A  
 Executables registered with my_project_A:  
-&nbsp;    my_executable_A1 
-&nbsp;    my_executable_A2 
+&nbsp;    my_executable_A1  
+&nbsp;    my_executable_A2  
 &nbsp;    my_executable_A3
 
 Project: 
