@@ -181,20 +181,19 @@ Executables registered with my_project_B:
 
 The structure and content of atks.log is shown below.  
 <pre>
-Output from Project my_project_A: 
+Output from Project my_project_A:  
 Output from Executable my_executable_A1:  
+"String returned from my_executable_A1"
 
-\<String returned from my_executable_A1>
+Output from Project my_project_A:  
+Output from Executable my_executable_A2:  
+"String returned from my_executable_A2"
 
-Output from Project my_project_A: 
-Output from Executable my_executable_A2: 
-\<String returned from my_executable_A2>
+Output from Project my_project_A:  
+Output from Executable my_executable_A3:  
+"String returned from my_executable_A2"
 
-Output from Project my_project_A: 
-Output from Executable my_executable_A3: 
-\<String returned from my_executable_A2>
-
-Output from Project my_project_B: 
-Output from Executable my_executable_B1: 
-\<String returned from my_executable_B1>
+Output from Project my_project_B:  
+Output from Executable my_executable_B1:  
+"String returned from my_executable_B1"
 </pre>
