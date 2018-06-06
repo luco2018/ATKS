@@ -165,14 +165,15 @@ The hints from all scripts are collected into the atks/atks.log file in your run
   * The name of the executable
   * String returned from executable
   
-The example below is from an ATKS that has the following components:
-Project: my_project_A
+The example below is from an ATKS that has the following components:  
+
+Project: my_project_A  
 Executables registered with my_project_A:  my_executable_A1 my_executable_A2 my_executable_A3
 
 Project: my_project_B
 Executables registered with my_project_B:  my_executable_B1
 
-from our internal testing.  The intent is to show the structure and content of atks.log.  
+The structure and content of atks.log is shown below.  
 <pre>
 Output from Project my_project_A: 
 Output from Executable my_executable_A1:  
