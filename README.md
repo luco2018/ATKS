@@ -97,7 +97,7 @@ Executables
 ---
 All ATKS executables extend from the AtksExecutable class.  An executable must import the project to which it belongs.<br>
 
-While we encourage teams to use the ThenWhatTree package to define executables, the VASE platform can run any python modules that users choose.  The example below is based on ThenWhatTree executables.  
+While we encourage teams to use the [ThenWhatTree](https://github.com/intel/ThenWhatTree) package to define executables, the VASE platform can run any python modules that users choose.  The example below is based on ThenWhatTree executables.  
 
 The executables directory contains an empty \_\_init__.py file and any scripts available to be run.  ATKS expects an executable to return a string.  There are no constraints on the name of a project, however, the name should be unique to avoid aliasing with executables from other ATKS projects.
 <pre>
